@@ -1,0 +1,374 @@
+{"0": {
+    "doc": "자격증",
+    "title": "전기기사 (‘23. 01 ~ 현재)",
+    "content": "2023년 전기기사 시험 일정 &times; 2023년 전기기사 시험 일정 . | 과목 . | 필기 : 1. 전기자기학 2. 전력공학 3. 전기기기 4. 회로이론 및 제어공학 5. 전기설비기술기준 | 실기 : 전기설비설계 및 관리 | . | . ",
+    "url": "/docs/Certification#%EC%A0%84%EA%B8%B0%EA%B8%B0%EC%82%AC-23-01--%ED%98%84%EC%9E%AC",
+    "relUrl": "/docs/Certification#전기기사-23-01--현재"
+  },"1": {
+    "doc": "자격증",
+    "title": "자격증",
+    "content": " ",
+    "url": "/docs/Certification",
+    "relUrl": "/docs/Certification"
+  },"2": {
+    "doc": "22년 2회 - 회로/제어",
+    "title": "22년 2회 - 회로/제어",
+    "content": "&times; 풀이 &times; \\(x = 2(R-C-x)\\) \\(C = 5x\\) \\(2R = 13x\\) \\(R = {13 \\over 2 x} = {13 \\over 10 C}\\) \\(∴ {C \\over R} = {10 \\over 13}\\) . ",
+    "url": "/docs/Electric-Circuit/EE-Circuits/1",
+    "relUrl": "/docs/Electric-Circuit/EE-Circuits/1"
+  },"3": {
+    "doc": "전기기사 회로이론",
+    "title": "전기기사 회로이론",
+    "content": "회로이론은 이전에 전자전기 관련 포스트에서도 말했듯 전자전기 공학을 이해하기 위한 최소한의 지식을 제공한다. ",
+    "url": "/docs/Electric-Circuit/EE-Circuits",
+    "relUrl": "/docs/Electric-Circuit/EE-Circuits"
+  },"4": {
+    "doc": "Impedance & Phasor",
+    "title": "리액턴스와 복소수 좌표계",
+    "content": "&times; 유도성 리액턴스는 wL, 용량성 리액턴스는 $1 \\over wC$ 로 표현된다. w는 각주파수를 의미하는데, w는 2πf 이므로 리액턴스는 주파수에 따라 변동한다는 것을 알 수 있다. 복소수 좌표계는 임피던스를 나타내기 위한 좌표계로 사용되는데, 임피던스가 Z = $ R + jX $ 로 표현된다는 점을 생각해보면 이해가 된다. 여기서 X 는 총 리액턴스로 유도성 리액턴스와 용량성 리액턴스를 합한 값이다. 위 그림에서 확인할 수 있듯, 용량성 리액턴스는 90도 뒤지고 용량성 리액턴스는 90도 앞선다는 것을 알 수 있다. ",
+    "url": "/docs/Electric-Circuit/1#%EB%A6%AC%EC%95%A1%ED%84%B4%EC%8A%A4%EC%99%80-%EB%B3%B5%EC%86%8C%EC%88%98-%EC%A2%8C%ED%91%9C%EA%B3%84",
+    "relUrl": "/docs/Electric-Circuit/1#리액턴스와-복소수-좌표계"
+  },"5": {
+    "doc": "Impedance & Phasor",
+    "title": "페이저",
+    "content": "교류전원의 전압 역시 페이저로 표현되기도 한다. 페이저로 표현된 전압식을 임피던스로 나누어주면 전류를 쉽게 구할 수 있다. 위상각은 φ 로 표현되고, 0~2π로 표현하거나 -π ~ π로 표현하기도 한다. &times; ",
+    "url": "/docs/Electric-Circuit/1#%ED%8E%98%EC%9D%B4%EC%A0%80",
+    "relUrl": "/docs/Electric-Circuit/1#페이저"
+  },"6": {
+    "doc": "Impedance & Phasor",
+    "title": "리액턴스",
+    "content": "리액턴스란 용어의 사전적 뜻은 반응을 보이는 정도를 의미한다. 전기에 있어서도 리액턴스의 의미는 변하지 않는다. 유도성 리액턱스는 인덕터에 의한 것이고, 용량성 리액턴스는 커패시터에 의한 것이다. 인덕터는 전기에너지를 자기장의 형태로 저장하는 장치이고, 커패시터는 전기에너지를 전기장의 형태로 저장한다. 에너지를 변환하는 과정에서 위상의 변화가 발생하고 이러한 특성을 이용해서 여러가지 응용회로가 개발되었다. &times; . ",
+    "url": "/docs/Electric-Circuit/1#%EB%A6%AC%EC%95%A1%ED%84%B4%EC%8A%A4",
+    "relUrl": "/docs/Electric-Circuit/1#리액턴스"
+  },"7": {
+    "doc": "Impedance & Phasor",
+    "title": "저항 V-I 관계",
+    "content": "저항은 아래와 같이 전압과 전류가 동일한 위상을 가진다. &times; ",
+    "url": "/docs/Electric-Circuit/1#%EC%A0%80%ED%95%AD-v-i-%EA%B4%80%EA%B3%84",
+    "relUrl": "/docs/Electric-Circuit/1#저항-v-i-관계"
+  },"8": {
+    "doc": "Impedance & Phasor",
+    "title": "인덕터V-I 관계",
+    "content": "인덕터는 전류가 전압보다 위상이 $pi \\over 2$ 만큼 뒤진다. &times; ",
+    "url": "/docs/Electric-Circuit/1#%EC%9D%B8%EB%8D%95%ED%84%B0v-i-%EA%B4%80%EA%B3%84",
+    "relUrl": "/docs/Electric-Circuit/1#인덕터v-i-관계"
+  },"9": {
+    "doc": "Impedance & Phasor",
+    "title": "커패시터 V-I 관계",
+    "content": "커패시터는 전압이 전류보다 위상이 $pi \\over 2$ 만큼 뒤진다. &times; ",
+    "url": "/docs/Electric-Circuit/1#%EC%BB%A4%ED%8C%A8%EC%8B%9C%ED%84%B0-v-i-%EA%B4%80%EA%B3%84",
+    "relUrl": "/docs/Electric-Circuit/1#커패시터-v-i-관계"
+  },"10": {
+    "doc": "Impedance & Phasor",
+    "title": "Impedance & Phasor",
+    "content": ". | 리액턴스와 복소수 좌표계 | 페이저 | 리액턴스 | 저항 V-I 관계 | 인덕터V-I 관계 | 커패시터 V-I 관계 | . ",
+    "url": "/docs/Electric-Circuit/1",
+    "relUrl": "/docs/Electric-Circuit/1"
+  },"11": {
+    "doc": "Filters",
+    "title": "전자기 간섭 (EMI; electromagnetic interference)",
+    "content": "전자회로를 설계하다 보면, 주변 장치에서 발생하는 전자기장에 의해 특정 위치에 원하지 않는 신호가 전달되기도 한다. 이러한 신호 잡음을 효과적으로 제거하는 회로가 필터이다. 필터는 원하는 목적을 달성하기 위해서 낮은 주파수의 신호만 사용하거나 높은 주파수의 신호만 사용하는 방식 등 다양하게 응용된다. ",
+    "url": "/docs/Electric-Circuit/2#%EC%A0%84%EC%9E%90%EA%B8%B0-%EA%B0%84%EC%84%AD-emi-electromagnetic-interference",
+    "relUrl": "/docs/Electric-Circuit/2#전자기-간섭-emi-electromagnetic-interference"
+  },"12": {
+    "doc": "Filters",
+    "title": "수동필터와 능동필터",
+    "content": "수동 필터와 능동 필터는 필터에 사용되는 소자에 따른 분류이다. RLC를 사용한 필터는 수동 필터, 트랜지스터나 OP AMP 등을 사용한 필터는 능동 필터로 구분한다. 수동필터는 이득이 1을 초과할 수 없지만 고주파수 대역에서 유용하게 쓸 수 있다. 가청주파수 대역 (300~3000Hz) 에서는 수동필터의 성능이 매우 떨어지고, 대용량의 인덕턴스, 커패시턴스가 요구되므로 능동필터가 주로 쓰인다. ",
+    "url": "/docs/Electric-Circuit/2#%EC%88%98%EB%8F%99%ED%95%84%ED%84%B0%EC%99%80-%EB%8A%A5%EB%8F%99%ED%95%84%ED%84%B0",
+    "relUrl": "/docs/Electric-Circuit/2#수동필터와-능동필터"
+  },"13": {
+    "doc": "Filters",
+    "title": "수동필터의 종류",
+    "content": "&times; 낮은 주파수 대역을 사용할 지, 높은 주파수 대역을 사용할 지 등에 따라 필터의 종류가 달라진다. LPF와 HPF 에서는 “차단주파수” ( 또는 “3-dB 주파수”, “반전력주파수” 등으로 불림)와 “저지주파수”라는 개념이 사용된다. “차단주파수”는 입력 대비 출력이 반으로 감소하는 주파수이고, “저지주파수”는 입력 대비 출력이 0에 근접하는 주파수를 의미한다. ",
+    "url": "/docs/Electric-Circuit/2#%EC%88%98%EB%8F%99%ED%95%84%ED%84%B0%EC%9D%98-%EC%A2%85%EB%A5%98",
+    "relUrl": "/docs/Electric-Circuit/2#수동필터의-종류"
+  },"14": {
+    "doc": "Filters",
+    "title": "수동필터의 설계",
+    "content": "&times; Passive LPF . &times; Passive HPF . &times; Passive Band Pass Filter . &times; Passive Band Stop Filter . &times; ",
+    "url": "/docs/Electric-Circuit/2#%EC%88%98%EB%8F%99%ED%95%84%ED%84%B0%EC%9D%98-%EC%84%A4%EA%B3%84",
+    "relUrl": "/docs/Electric-Circuit/2#수동필터의-설계"
+  },"15": {
+    "doc": "Filters",
+    "title": "능동필터의 종류",
+    "content": "Active LPF . &times; Active HPF . &times; Active Band Pass Filter . &times; Active Band Reject (Notch) Filter . &times; ",
+    "url": "/docs/Electric-Circuit/2#%EB%8A%A5%EB%8F%99%ED%95%84%ED%84%B0%EC%9D%98-%EC%A2%85%EB%A5%98",
+    "relUrl": "/docs/Electric-Circuit/2#능동필터의-종류"
+  },"16": {
+    "doc": "Filters",
+    "title": "Trade Off",
+    "content": "필터는 노이즈를 제거하지만, 모든 일이 그렇듯 너무 과도하면 부작용이 있기 마련이다. 필터의 시정수가 커지면 노이즈 제거 성능은 높아지지만, 전압이나 전류나 전압이 원하는 레벨에 도달할 때까지의 시간이 늘어나게 된다. 따라서, 설계에 필터를 적용할 때에는 통과 대역폭 뿐만 아니라 응답시간도 고려할 필요가 있다. ",
+    "url": "/docs/Electric-Circuit/2#trade-off",
+    "relUrl": "/docs/Electric-Circuit/2#trade-off"
+  },"17": {
+    "doc": "Filters",
+    "title": "Filters",
+    "content": ". | 전자기 간섭 (EMI; electromagnetic interference) | 수동필터와 능동필터 . | 수동필터의 종류 | 수동필터의 설계 . | Passive LPF | Passive HPF | Passive Band Pass Filter | Passive Band Stop Filter | . | 능동필터의 종류 . | Active LPF | Active HPF | Active Band Pass Filter | Active Band Reject (Notch) Filter | . | . | Trade Off | . ",
+    "url": "/docs/Electric-Circuit/2",
+    "relUrl": "/docs/Electric-Circuit/2"
+  },"18": {
+    "doc": "Passive Elements & Standards",
+    "title": "전기 표준",
+    "content": "&times; 전기 관련 표준을 만드는 곳이다. 우리가 공부해온 내용을 현장에서 제대로 사용하기 위해서는 실제로 사용되고 있는 표준에 대해서도 학습이 필요하다. ",
+    "url": "/docs/Electric-Circuit/3#%EC%A0%84%EA%B8%B0-%ED%91%9C%EC%A4%80",
+    "relUrl": "/docs/Electric-Circuit/3#전기-표준"
+  },"19": {
+    "doc": "Passive Elements & Standards",
+    "title": "표준 저항 (IEC60063 - E series)",
+    "content": "과거에는 저항이나 커패시터를 생산하는 업체들이 표준화된 값이 없어서 재고 관리가 불가능할 수준이었다고 한다. 그래서 저항과 커패시터의 크기를 표준화하기 위해 IEC (국제전기기술위원회) 에서는 IEC 60063 (preferred values for the resistance of resistors and for the capacitance of capacitors) 을 제정하였다. 저항과 커패시턴스의 크기는 E3, E6, E12, E24, E48, E96, E192로 분류된다. En 은 어떤 값을 x% 씩 n번 곱하면 10배가 되도록 계산하는 방법이라고 생각하면 된다. 예를 들면, E3의 경우 특정 업체가 10~10k옴의 저항을 판매한다고 가정한다면 10을 n번 곱했을 때 100이 되도록 해야 하므로 그 값은 10의 세제곱근이 된다. 따라서 2.154% 씩 증가하면 되는데, 그 기준값이 10을 기준으로 정수로 표현되므로 반올림하여 두번째 값은 10*2.154를 올림한 22가 되고, 세번째 값은 $10 * 2.154^2$을 올림한 47이 된다. E3, E6 등 E Seires 별 표준 저항은 검색하면 그 표를 쉽게 구할 수 있다. | 공차 (Tolerance) . | E3 : 40% | E6 : 20% | E12 : 10% | E24 : 5% | E48 : 2% | E96 : 1% | E192 : 0.5% and so on | . | . ",
+    "url": "/docs/Electric-Circuit/3#%ED%91%9C%EC%A4%80-%EC%A0%80%ED%95%AD-iec60063---e-series",
+    "relUrl": "/docs/Electric-Circuit/3#표준-저항-iec60063---e-series"
+  },"20": {
+    "doc": "Passive Elements & Standards",
+    "title": "회로도 내 저항/커패시터 표기법과 허용오차 (IEC60062 - RKM Code)",
+    "content": "IEC는 저항 및 커패시터의 크기 및 허용오차를 표기법을 RKM 으로 정리했다. 사실 RKM 코드는 잘 쓰이지 않지만 종종 J급 저항, B급 커패시터 등 오차를 표현 코드에 대해 들어본 적이 있을텐데 이 것은 RKM 코드로부터 유래된 것이라는 정도만 알고 넘어가면 된다. &times; ",
+    "url": "/docs/Electric-Circuit/3#%ED%9A%8C%EB%A1%9C%EB%8F%84-%EB%82%B4-%EC%A0%80%ED%95%AD%EC%BB%A4%ED%8C%A8%EC%8B%9C%ED%84%B0-%ED%91%9C%EA%B8%B0%EB%B2%95%EA%B3%BC-%ED%97%88%EC%9A%A9%EC%98%A4%EC%B0%A8-iec60062---rkm-code",
+    "relUrl": "/docs/Electric-Circuit/3#회로도-내-저항커패시터-표기법과-허용오차-iec60062---rkm-code"
+  },"21": {
+    "doc": "Passive Elements & Standards",
+    "title": "저항",
+    "content": "저항은 고정저항, 가변저항, 배리스터 등 종류가 다양한데 용도에 따라 사용해야 하고, 회로를 설계할 때에는 용도에 따라서 전압정격, 파워정격, 오차범위 등을 고려하여 선택해야 한다. 아래 도표는 다양한 종류의 저항을 보여준다. &times; 저항은 전자파 설계를 하는 등 임피던스에 아주 민감한 업무를 수행하는 것이 아니라면 웬만해서는 순수저항으로 생각하더라도 단순 디자인 단계에서는 문제가 없었다. 만약 전자파 관련 일을 맡게 된다면 이론과 실제 저항의 차이에 대해서 더 디테일하게 다뤄볼 생각도 있지만 아직은 필요가 없어서 별도로 다루진 않겠다. ",
+    "url": "/docs/Electric-Circuit/3#%EC%A0%80%ED%95%AD",
+    "relUrl": "/docs/Electric-Circuit/3#저항"
+  },"22": {
+    "doc": "Passive Elements & Standards",
+    "title": "커패시터",
+    "content": "커패시터는 전기를 전기장의 형태로 저장하는 장치이다. 가장 기본적인 형태는 두개의 평행판에 사이에 유전율이 높은 유전체를 삽입한 구조이다. 유전율이 높을 수록 커패시터에 저장할 수 있는 전하는 많아진다. &times; 커패시터에 어떻게 전하가 저장되는지 더 깊게 이해하고 싶다면 유전체에 대해 더 깊이 생각해볼 필요가 있다. 관심이 있는 사람들은 아래의 내용을 참조하길 바란다. ",
+    "url": "/docs/Electric-Circuit/3#%EC%BB%A4%ED%8C%A8%EC%8B%9C%ED%84%B0",
+    "relUrl": "/docs/Electric-Circuit/3#커패시터"
+  },"23": {
+    "doc": "Passive Elements & Standards",
+    "title": "전기용량 단위 : 패럿 F (Farad)",
+    "content": "전기용량의 단위인 패럿은 1V의 전위차를 주었을 때 1쿨롱의 전하를 대전시키는 용량을 말한다. 즉 1F = 1C/1V . ",
+    "url": "/docs/Electric-Circuit/3#%EC%A0%84%EA%B8%B0%EC%9A%A9%EB%9F%89-%EB%8B%A8%EC%9C%84--%ED%8C%A8%EB%9F%BF-f-farad",
+    "relUrl": "/docs/Electric-Circuit/3#전기용량-단위--패럿-f-farad"
+  },"24": {
+    "doc": "Passive Elements & Standards",
+    "title": "전하 단위 : 쿨롱 (Coulomnb)",
+    "content": "전하의 단위인 쿨롱은 전류 1A가 1초동안 흘렀을 때 이동한 전하의 양을 의미한다. ",
+    "url": "/docs/Electric-Circuit/3#%EC%A0%84%ED%95%98-%EB%8B%A8%EC%9C%84--%EC%BF%A8%EB%A1%B1-coulomnb",
+    "relUrl": "/docs/Electric-Circuit/3#전하-단위--쿨롱-coulomnb"
+  },"25": {
+    "doc": "Passive Elements & Standards",
+    "title": "유전체와 유전율",
+    "content": "유전체는 단어 자체의 의미에 집중하면 유전, 즉 전기를 유도하는 물체라고 할 수 있다. 유전체는 도체와는 다르다. 도체에는 자유전하가 있어서 전류를 흘러주면 자유전하에 의해 전류가 흐른다. 하지만, 유전체는 도체보다는 부도체에 가깝다. 그렇다면 전하도 없는 유전체가 어떻게 전하를 저장하고, 전기를 유도한다는 것일까? 그 답은 분극에 있다. 분극이란 극성에 따라 나뉜다는 말로 무극성 분자에 전기장을 인가하면 아래와 같이 분극된다. 아래와 같이 분극된 형태의 분자를 전기쌍극자라 부른다. 이 전기쌍극자가 전기장에 따라 배열되며 전하가 저장되고, 가해진 전기장이 사라지면 전기쌍극자가 다시 원래대로 돌아가려는 힘에 의해 전기가 흐른다. &times; 분극이 되는 정도에 따라서, 유전체가 저장할 수 있는 전하량이 달라지게 되는데 이 분극이 되는 정도를 전화율 χe 이라 한다. 이 전화율에 1을 더하면 상대유전율 (또는 유전상수) εr 이 구해지고, 또 이 상대유전율과 자유공간의 유전율 ε0 을 곱하면 유전체의 유전율 ε을 계산할 수 있다. 아래 정리된 식에서 D는 전속밀도로, 전기장이 어느 유전체에 가해졌을 때, 분극되어 분극에 의해 생성된 전기쌍극자가 만들어낸 전속 (전기력선의 총합) 의 밀도가 얼마나 되는지를 나타내는 값이다. &times; 유전율 단위 F/m, 전기장 단위 V/m, 전화율/유전상수는 단위가 없는 상수, 전속밀도 단위 C/m2 . ",
+    "url": "/docs/Electric-Circuit/3#%EC%9C%A0%EC%A0%84%EC%B2%B4%EC%99%80-%EC%9C%A0%EC%A0%84%EC%9C%A8",
+    "relUrl": "/docs/Electric-Circuit/3#유전체와-유전율"
+  },"26": {
+    "doc": "Passive Elements & Standards",
+    "title": "인덕터",
+    "content": "&times; 인덕터는 전류를 자기장의 형태로 변환하여 전류의 흐름을 방해한다. 앞으로 다루겠지만, 인덕터의 리액턴스는 wL로 표현되는데 w는 각속도로 2πfL로 표현된다. 즉, 리액턴스가 주파수에 정비례하기때문에 고주파일수록 효과적으로 차단한다고 볼 수 있다. 인덕터는 작게 보면 앙페르 회로 법칙(암페어 주회법칙)에 따라서 자기장을 생성한다. 전체적인 자기장의 방향은 앙페르 오른 나사 법칙을 참고하면 알 수 있다. ",
+    "url": "/docs/Electric-Circuit/3#%EC%9D%B8%EB%8D%95%ED%84%B0",
+    "relUrl": "/docs/Electric-Circuit/3#인덕터"
+  },"27": {
+    "doc": "Passive Elements & Standards",
+    "title": "오른나사의 법칙",
+    "content": "&times; 전류가 자계를 발생시키는 관계를 오른나사에 비유한 법칙 . ",
+    "url": "/docs/Electric-Circuit/3#%EC%98%A4%EB%A5%B8%EB%82%98%EC%82%AC%EC%9D%98-%EB%B2%95%EC%B9%99",
+    "relUrl": "/docs/Electric-Circuit/3#오른나사의-법칙"
+  },"28": {
+    "doc": "Passive Elements & Standards",
+    "title": "유도용량(인덕턴스) 단위 : 헨리 H (Henry)",
+    "content": "1헨리는 1A의 전류가 도선에 흘렀을 때 생성되는 자속의 크기를 의미한다. &times; ",
+    "url": "/docs/Electric-Circuit/3#%EC%9C%A0%EB%8F%84%EC%9A%A9%EB%9F%89%EC%9D%B8%EB%8D%95%ED%84%B4%EC%8A%A4-%EB%8B%A8%EC%9C%84--%ED%97%A8%EB%A6%AC-h-henry",
+    "relUrl": "/docs/Electric-Circuit/3#유도용량인덕턴스-단위--헨리-h-henry"
+  },"29": {
+    "doc": "Passive Elements & Standards",
+    "title": "자화와 투자율",
+    "content": "자계에서도 분극과 비슷한 개념이 존재한다. 바로 자화인데, 아래와 같이 자기쌍극자가 자기장의 방향에 따라 자기 쌍극자가 배열되는 현상을 말한다. 매질에서 이 자화가 일어나는 정도를 자화율이라고 하고, 그 값은 매질에 따라 다르다. 투자율은 자화율에 1을 더한 값에 자유공간에서의 투자율을 곱한 값으로 매질에 자기장이 가해졌을 때, 얼마만큼의 자속이 생성되는 지를 의미하는 값이다. &times; &times; B는 자속밀도, H는 자기장을 의미한다. 자화율, 상대투자율은 단위가 없는 상수. 투자율 단위 H/m, 자속밀도 단위 T = Wb/m2, 자기장 단위 A/m . &times; ",
+    "url": "/docs/Electric-Circuit/3#%EC%9E%90%ED%99%94%EC%99%80-%ED%88%AC%EC%9E%90%EC%9C%A8",
+    "relUrl": "/docs/Electric-Circuit/3#자화와-투자율"
+  },"30": {
+    "doc": "Passive Elements & Standards",
+    "title": "자화 방향",
+    "content": " ",
+    "url": "/docs/Electric-Circuit/3#%EC%9E%90%ED%99%94-%EB%B0%A9%ED%96%A5",
+    "relUrl": "/docs/Electric-Circuit/3#자화-방향"
+  },"31": {
+    "doc": "Passive Elements & Standards",
+    "title": "자기포화 &amp; 분극포화",
+    "content": "전기장이 유전체에 가해지면 분극이 일어나는데, 모든 전기쌍극자가 분극되면 전기장이 더 강하게 가해져도 더 이상 분극이 일어나지 않는다. 마찬가지로 자성체에 자기장이 가해지면 자화가 일어나는데, 모든 자기 쌍극자가 자화되면 자기장이 더 강하게 가해져도 더 이상 자화가 일어나지 않는다. 이를 각각 분극 포화, 자기 포화라고 하는데 이렇게 되면 더 이상 전속/자속이 증가하지 않는다. 아래와 같은 히스테리시스 곡선에 따라 포화된다. &times; ",
+    "url": "/docs/Electric-Circuit/3#%EC%9E%90%EA%B8%B0%ED%8F%AC%ED%99%94--%EB%B6%84%EA%B7%B9%ED%8F%AC%ED%99%94",
+    "relUrl": "/docs/Electric-Circuit/3#자기포화--분극포화"
+  },"32": {
+    "doc": "Passive Elements & Standards",
+    "title": "선속 (線束, Flux)",
+    "content": "위에서 자속, 전속이라는 말을 사용했는데 괜시리 어려운 말처럼 느껴지지만 사실 어렵지 않다. 한자어를 뜯어보자면 선을 묶었다는 뜻이다. 자속은 특정 평면을 통과하는 자기력선을 모두 더한 값이고, 전속은 특정 평면을 통과하는 전기력선을 모두 더한 값이다. 자속은 아래 식에서 F가 면자하밀도가 될 것이고, 전속은 F 가 면전하밀도가 될 것이다. &times; ",
+    "url": "/docs/Electric-Circuit/3#%EC%84%A0%EC%86%8D-%E7%B7%9A%E6%9D%9F-flux",
+    "relUrl": "/docs/Electric-Circuit/3#선속-線束-flux"
+  },"33": {
+    "doc": "Passive Elements & Standards",
+    "title": "Passive Elements & Standards",
+    "content": ". | 전기 표준 . | 표준 저항 (IEC60063 - E series) | 회로도 내 저항/커패시터 표기법과 허용오차 (IEC60062 - RKM Code) | . | 저항 | 커패시터 . | 전기용량 단위 : 패럿 F (Farad) | 전하 단위 : 쿨롱 (Coulomnb) | 유전체와 유전율 | . | 인덕터 . | 오른나사의 법칙 | 유도용량(인덕턴스) 단위 : 헨리 H (Henry) | 자화와 투자율 | 자화 방향 | 자기포화 &amp; 분극포화 | . | 선속 (線束, Flux) | . 전기 관련 분야의 회사나 학교를 다닌 사람들은 대부분 커패시터가 터지거나 일부 소자들이 망가지는 것을 경험해본적 있을 것이다. 소자가 생각보다 너무 쉽게 망가지는 것을 본 사람들은 소자들의 실제 특성을 이해하고 기억하고 있는 것도 전자전기 공학자로써 꼭 필요한 덕목이란 것을 이해하고 있을 것이다. RLC의 기본적인 특성말고도 현장에서 근무하기 위해서는 실제 전기 산업에서 사용되는 표준을 이해하고 있어야 한다. 아래에 저항과 커패시터에 관한 두 표준을 소개한다. ",
+    "url": "/docs/Electric-Circuit/3",
+    "relUrl": "/docs/Electric-Circuit/3"
+  },"34": {
+    "doc": "RLC Circuit (Transient Analysis)",
+    "title": "임피던스",
+    "content": "RLC 회로를 살펴보기 전 임피던스에 대해 잘 이해하고 넘어가야 한다. 임피던스를 이해하기 위해서는 먼저 리액턴스의 개념을 잘 이해하고 있어야 한다. 리액턴스란 말 그대로 반응이라는 뜻이다. 순수 저항은 저항만으로 이루어져있고, 커패시터와 인덕터는 각각 용량성 리액턴스 $1 \\over wC$, 인덕터는 유도성 리액턴스 wL 을 가진다. 여기서 w는 각속도로 2πf 를 의미한다. 즉, 리액턴스는 주파수에 비례하는 값으로 고주파일 수록 유도성 리액턴스의 영향은 커지고 용량성 리액턴스의 영향은 작아진다. 정리하면, 고주파인 경우 유도성 리액턴스는 ∞ 로 보이고 저주파인 경우 유도성 리액턴스가 ∞ 로 보이게 된다. ",
+    "url": "/docs/Electric-Circuit/4#%EC%9E%84%ED%94%BC%EB%8D%98%EC%8A%A4",
+    "relUrl": "/docs/Electric-Circuit/4#임피던스"
+  },"35": {
+    "doc": "RLC Circuit (Transient Analysis)",
+    "title": "RC 회로",
+    "content": "RC회로는 사실 RC 단독으로는 큰 의미가 없고, 다른 회로와 함께 응용될 때 그 의미가 있다. 그래도 커패시터의 충방전 메커니즘을 이해하는 데는 도움이 되는 회로이다. 아래 회로에서 접점이 a 로 연결되면 v에 의해서 C가 충전되고, b 로 연결되면 R 에 의해서 C가 방전된다. &times; 커패시터는 충전 방향과 방전 방향이 서로 반대이다. 아래 그림을 참조하면 충전중과 방전중 전자의 흐름이 반대임을 알 수 있다. 전류의 방향은 전자의 이동방향의 반대이다. &times; 위는 V = 100, R = 1MΩ, C = 1uF 이라고 설정했을 때의 그래프이다. RC회로는 통상 5τ 충전하면 커패시터가 완전 충전된다고 생각하면 되고, 5τ 방전하면 커패시터가 거의 완전 방전된다고 생각하면 된다. (τ = RC, 단위 초) 완충시 전류는 더 이상 흐르지 않지만, 전압은 일정하게 유지된다. 충전시 &times; 충전시 방전시 &times; 방전시 https://www.electronics-tutorials.ws/rc/rc_1.html &times; https://www.electronics-tutorials.ws/rc/rc_1.html ",
+    "url": "/docs/Electric-Circuit/4#rc-%ED%9A%8C%EB%A1%9C",
+    "relUrl": "/docs/Electric-Circuit/4#rc-회로"
+  },"36": {
+    "doc": "RLC Circuit (Transient Analysis)",
+    "title": "충전 공식",
+    "content": "&times; ",
+    "url": "/docs/Electric-Circuit/4#%EC%B6%A9%EC%A0%84-%EA%B3%B5%EC%8B%9D",
+    "relUrl": "/docs/Electric-Circuit/4#충전-공식"
+  },"37": {
+    "doc": "RLC Circuit (Transient Analysis)",
+    "title": "방전 공식",
+    "content": "&times; ",
+    "url": "/docs/Electric-Circuit/4#%EB%B0%A9%EC%A0%84-%EA%B3%B5%EC%8B%9D",
+    "relUrl": "/docs/Electric-Circuit/4#방전-공식"
+  },"38": {
+    "doc": "RLC Circuit (Transient Analysis)",
+    "title": "RL 회로",
+    "content": "인덕터는 순간적인 고주파 성분을 억제하기 위해 사용한다. 아래 회로를 보도록 하자. 인덕터 역시 5τ 충전하면 완전히 충전되고, 5τ 방전하면 완전히 방전된다. 완충시, 전류는 계속해서 흐르지만 전압은 0이 된다. 위 그림에서 파란극은 S극이고, 빨간극은 N극이다. 아래와 같이, 자기력선은 N극에서 시작하여 S극에서 끝나므로, 위 그림에서 막대자석이 코일에 가까워지면 자속이 왼쪽에서 오른쪽 방향으로 증가하므로 전압은 패러데이의 법칙에 따라 자속이 증가하는 반대 방향으로 전압이 생성된다. 위 그림을 보면 멀티미터의 선이 빨간 쪽이 + 쪽이고, 까만 선이 - 쪽 단자이다. 렌츠의 법칙에 따라서 기전력은 자속이 증가하는 것을 막는 방향쪽으로 생성된다. 그 크기는 패러데이의 법칙에 따라 자속의 변화량을 통해 알 수 있다. 전자기 유도 현상은 작용-반작용 현상의 일종이다. 위 그림에서 막대자석이 N극 쪽을 코일쪽으로 가져다대면 코일이 마치 막대자석이 가까이 오는 것을 방해하는 것처럼 내부에 자기장이 형성된다. 도선에 흐르는 전류의 방향은 아래와 같이 오른 나사의 법칙을 통해 알 수 있다. 오른 나사 법칙 &times; 오른 나사 법칙 자기력선의 방향 (N-&gt;S) &times; 자기력선의 방향 (N-&gt;S) 참고로, RC회로 및 RL 회로 등은 주파수 응답을 해석해보면 필터로도 사용할 수 있는데, 이는 이후에 다뤄보기로 하겠다. ",
+    "url": "/docs/Electric-Circuit/4#rl-%ED%9A%8C%EB%A1%9C",
+    "relUrl": "/docs/Electric-Circuit/4#rl-회로"
+  },"39": {
+    "doc": "RLC Circuit (Transient Analysis)",
+    "title": "커패시터의 전압 연속성 &amp; 인덕터의 전류 연속성",
+    "content": "이제 커패시터는 전압은 연속적이고, 인덕터는 전류가 연속적이라는 것을 알게 되었다. 여기서 중요한 것은 커패시터는 방전시 전하의 이동방향이 반전되어 전류의 흐름이 충전전류의 방향과 반대가 되고, 인덕터는 방전시 렌츠의 법칙에 의해서 자속이 변화하는 방향의 반대로 곧바로 전압이 걸리게 된다. 전압 연속성 덕분에 전력전자에서는 빠른 주기로 스위칭하는 회로에 커패시터를 삽입하여 전압을 일정하게 유지하는 데 사용하고, 전류 연속성을 이용해서 전류를 일정하게 유지하기 위해 인덕터를 사용한다. ",
+    "url": "/docs/Electric-Circuit/4#%EC%BB%A4%ED%8C%A8%EC%8B%9C%ED%84%B0%EC%9D%98-%EC%A0%84%EC%95%95-%EC%97%B0%EC%86%8D%EC%84%B1--%EC%9D%B8%EB%8D%95%ED%84%B0%EC%9D%98-%EC%A0%84%EB%A5%98-%EC%97%B0%EC%86%8D%EC%84%B1",
+    "relUrl": "/docs/Electric-Circuit/4#커패시터의-전압-연속성--인덕터의-전류-연속성"
+  },"40": {
+    "doc": "RLC Circuit (Transient Analysis)",
+    "title": "LC 회로 (RLC) - 병렬회로",
+    "content": "커패시터는 유전체에 전압이 걸려서 분극이 포화될 때까지 충전을 계속한다. 커패시터가 완전히 충전되면 유전체 내부 전기장은 일정하게 유지되고, 더 이상 전류는 흐르지 않는다. 인덕터는 전류가 흘르면 자기 포화현상이 일어날 때까지 충전된다. 자기 포화현상이 일어나면 인덕터 내부에는 자속의 변화가 없으므로 인덕터는 순수 도선처럼 동작하며 인덕터 양단의 전압이 0V가 된다. 하지만, 커패시터나 인덕터 어느 쪽에서라도 전속이나 자속이 누설되면 이 평형상태가 깨져서 전압과 전류가 진동하게 된다. https://en.wikipedia.org/wiki/LC_circuit &times; https://en.wikipedia.org/wiki/LC_circuit 아래와 같은 RLC 병렬회로를 고려해보자. &times; 위와 같은 LC 회로를 구성할 때, 주의할 점은 공명(또는 공진 또는 Resonance) 현상이다. 용량성 리액턴스는 1/wC로 표현되고, 유도성 리액턴스는 wL로 표현된다. 여기서 주의할 점은 용량성 리액턴스는 주파수 반비례이고, 유도성 리액턴스는 주파수 비례라는 것과, 임피던스 계산시 용량성 리액턴스는 유도성 리액턴스를 상쇄시키는 방향이라는 것이다. 따라서, 특정 주파수에서는 주파수가 0이 될 수 있다. 이 주파수가 바로 공진주파수이다. &times; 공진주파수에서는 낮은 임피던스를 갖기 때문에 순간적으로 전류의 진폭이 증가한다. ",
+    "url": "/docs/Electric-Circuit/4#lc-%ED%9A%8C%EB%A1%9C-rlc---%EB%B3%91%EB%A0%AC%ED%9A%8C%EB%A1%9C",
+    "relUrl": "/docs/Electric-Circuit/4#lc-회로-rlc---병렬회로"
+  },"41": {
+    "doc": "RLC Circuit (Transient Analysis)",
+    "title": "LC 회로 (RLC) - 직렬회로",
+    "content": "직렬회로는 공진주파수에서 오히려 임피던스가 무한대로 발산한다는 점이 다르다. 공진주파수에서는 개방회로로 동작한다. ",
+    "url": "/docs/Electric-Circuit/4#lc-%ED%9A%8C%EB%A1%9C-rlc---%EC%A7%81%EB%A0%AC%ED%9A%8C%EB%A1%9C",
+    "relUrl": "/docs/Electric-Circuit/4#lc-회로-rlc---직렬회로"
+  },"42": {
+    "doc": "RLC Circuit (Transient Analysis)",
+    "title": "RLC Circuit (Transient Analysis)",
+    "content": ". | 임피던스 | RC 회로 . | 충전 공식 | 방전 공식 | . | RL 회로 | 커패시터의 전압 연속성 &amp; 인덕터의 전류 연속성 | LC 회로 (RLC) - 병렬회로 | LC 회로 (RLC) - 직렬회로 | . RLC는 그 수동소자이기 때문에 RLC만으로 이루어진 회로는 아무런 작동을 하지 못한다. 이번 포스트에서는 접압원과 RLC를 활용한 간단한 회로를 소개하려고 한다. RC 회로, RL회로, RLC 회로를 소개한다. ",
+    "url": "/docs/Electric-Circuit/4",
+    "relUrl": "/docs/Electric-Circuit/4"
+  },"43": {
+    "doc": "Resistor Structure",
+    "title": "저항",
+    "content": " ",
+    "url": "/docs/Electric-Circuit/5#%EC%A0%80%ED%95%AD",
+    "relUrl": "/docs/Electric-Circuit/5#저항"
+  },"44": {
+    "doc": "Resistor Structure",
+    "title": "구조",
+    "content": "&times; 저항은 실리콘 기판 위에 피막이나 와이어를 형성함으로써 얻어진다. 저항 공식을 생각해보면, 저항은 모든 물질에 존재하고 그 공식은 R = ρL/A (L : 길이, A : 단면적) 이다. 얇은 필름이나 얇은 와이어를 사용하면 단면적 A가 아주 작아서 저항이 커지게 된다. 단면적은 작게하면서, 경로를 길게하면 더 큰 저항을 얻을 수 있기 때문에 보통 피막 저항은 나선모양으로 필름을 형성하고, 와이어 역시 나선모양으로 감는다. 칩저항에서는 와이어를 최대한 길게 배치하기 위해 미로처럼 꼬불꼬불하게 되어 있는 것을 볼 수 있다. ",
+    "url": "/docs/Electric-Circuit/5#%EA%B5%AC%EC%A1%B0",
+    "relUrl": "/docs/Electric-Circuit/5#구조"
+  },"45": {
+    "doc": "Resistor Structure",
+    "title": "Resistor Structure",
+    "content": ". | 저항 . | 구조 | . | . ",
+    "url": "/docs/Electric-Circuit/5",
+    "relUrl": "/docs/Electric-Circuit/5"
+  },"46": {
+    "doc": "Electric Circuit",
+    "title": "Electric Circuit",
+    "content": "회로이론은 전자공학도로 나아가기 위한 최소한의 지식을 제공한다. 회로이론은 패시브 소자, 액티브 소자를 모두 연결했을 때 어떻게 상호작용하여 결과적으로 그 회로가 어떤 의미를 갖는지, 안전 상 문제는 없는 지를 이론적으로 검토하기 위한 학문이다. ",
+    "url": "/docs/Electric-Circuit",
+    "relUrl": "/docs/Electric-Circuit"
+  },"47": {
+    "doc": "Electronics",
+    "title": "Electronics",
+    "content": "최근 전자 제품들은 점점 더 똑똑해지고, 작고 가벼워지며 혁신을 거듭하고 있다. 이런 전자제품들에는 전자공학에 기초를 두고 개발되고 있기 때문에 전자제품을 개발하는 공학자라면 전자공학을 기초부터 탄탄히 다져두어야 한다. 패시브 소자, 액티브 소자, 반도체 이론, 전자기학 등 두루두루 알아두면 어느 산업에서 근무하든 조금씩은 도움을 받을 기회가 있고 같은 경험을 했을 때 그 경험을 토대로 온전히 성장할 수 있는 사람이 될 수 있을 것이다. ",
+    "url": "/docs/Electronics",
+    "relUrl": "/docs/Electronics"
+  },"48": {
+    "doc": "MCU Firmware Filetypes",
+    "title": "MCU 구조",
+    "content": "MCU 내부에는 CPU 및 데이터 저장을 위한 nvSRAM (Non-Volatile SRAM), NCM (Non-Correctable-Memory), Flash Memory, 타이머, ADC/DAC 모듈 등이 존재한다. 펌웨어는 Flash Memory에 설치된다. 펌웨어의 주된 역할은 ADC에 의해 디지털 데이터로 변환된 값을 적절하게 변환하고, 변환된 데이터를 기반으로 적절한 역할을 수행할 수 있도록 제어하는 것이다. 이 때, Interrupt 와 타이머 모듈 등을 이용하여 HW를 손상시킬 수 있는 상황을 감지하여 작동을 중지하는 등의 고장진단 로직도 사용할 수 있다. &times; ",
+    "url": "/docs/MCU/1#mcu-%EA%B5%AC%EC%A1%B0",
+    "relUrl": "/docs/MCU/1#mcu-구조"
+  },"49": {
+    "doc": "MCU Firmware Filetypes",
+    "title": "메모리",
+    "content": "CPU가 메모리에 접근하기 위해서는 가상 주소가 필요하다. 하지만, 프로그래는 메모리에 접근할 때 물리적인 주소를 사용하기 때문에 CPU는 이 메모리에 접근하기 위해서 MMU가 필요하다. MMU는 물리주소를 가상 주소(논리적인 주소)로 변환해준다. MMU 를 사용하면 물리적 주소를 가상 주소로 변환하는데 더불어서 데이터가 메모리 상에서 실제로는 떨어져 있더라도 MMU를 거치면 하나로 표현할 수 있다는 장점이 있다. 위 메모리 맵은 물리적인 주소로 작성된 표로 프로그래머가 맵을 참조해서 #pragma section 지시자로 특정 변수가 특정 위치에 위치하도록 적절히 설정할 수 있다. 예를 들어서, 매번 Flash가 되더라도 데이터를 영구적으로 남기고 싶다면 별도의 비휘발성 메모리인 nvSRAM에 그 데이터를 저장할 수 있다. ",
+    "url": "/docs/MCU/1#%EB%A9%94%EB%AA%A8%EB%A6%AC",
+    "relUrl": "/docs/MCU/1#메모리"
+  },"50": {
+    "doc": "MCU Firmware Filetypes",
+    "title": "Intel hex (*.hex) vs SREC",
+    "content": "Intel hex 라는 이름은 Intel Processor 들을 위한 펌웨어라는 의미로 사용된다. Intel 프로세서는 리틀 엔디안을 기반으로 하기 때문에, Intel hex 파일 포맷을 사용하여야 한다. 만약, 프로세서가 빅 엔디안 형식이라면 SREC(Motorola S-record) 을 사용해야 할 것이다. 사실 hex, srec 이외에 다른 파일 형식도 많기 때문에 무조건 맞는 말은 아니지만 hex와 srec 형식은 가장 흔한 형식으로 어느 정도는 맞는 말이다. MCU의 사양에 따라 펌웨어의 형식이 달라져서 헷갈릴 수 있는데, 사실 이 부분은 MCU 제조사에서 권장하는 컴파일러를 사용하면 MCU에 맞는 펌웨어로 자동으로 만들어낸다. (Ex :NXP 사 - Diab Compiler, Inifineon 사 - Tasking VX-toolset) . ",
+    "url": "/docs/MCU/1#intel-hex-hex-vs-srec",
+    "relUrl": "/docs/MCU/1#intel-hex-hex-vs-srec"
+  },"51": {
+    "doc": "MCU Firmware Filetypes",
+    "title": "Intel HEX 구조",
+    "content": "&times; ",
+    "url": "/docs/MCU/1#intel-hex-%EA%B5%AC%EC%A1%B0",
+    "relUrl": "/docs/MCU/1#intel-hex-구조"
+  },"52": {
+    "doc": "MCU Firmware Filetypes",
+    "title": "Hex Code 00 (Data) : 16/32 비트 어드레스 방식에 사용",
+    "content": "코드에서 #pragma 지시자를 사용하면 상수 데이터가 Memory 에 적절히 배치된다. 링커는 Intel HEX문법에 따라 #pragma section 로 정의된 내용을 Intel HEX 파일 형식으로 재배치한다. 여기서, 데이터란 단순 데이터에 해당하는 값들로 상수를 의미한다. ",
+    "url": "/docs/MCU/1#hex-code-00-data--1632-%EB%B9%84%ED%8A%B8-%EC%96%B4%EB%93%9C%EB%A0%88%EC%8A%A4-%EB%B0%A9%EC%8B%9D%EC%97%90-%EC%82%AC%EC%9A%A9",
+    "relUrl": "/docs/MCU/1#hex-code-00-data--1632-비트-어드레스-방식에-사용"
+  },"53": {
+    "doc": "MCU Firmware Filetypes",
+    "title": "Hex Code 01 (End Of File) : 16/32 비트 어드레스 방식에 사용",
+    "content": "단순히 문서의 파일의 끝을 의미한다. ",
+    "url": "/docs/MCU/1#hex-code-01-end-of-file--1632-%EB%B9%84%ED%8A%B8-%EC%96%B4%EB%93%9C%EB%A0%88%EC%8A%A4-%EB%B0%A9%EC%8B%9D%EC%97%90-%EC%82%AC%EC%9A%A9",
+    "relUrl": "/docs/MCU/1#hex-code-01-end-of-file--1632-비트-어드레스-방식에-사용"
+  },"54": {
+    "doc": "MCU Firmware Filetypes",
+    "title": "Hex Code 02 (Extended Segment Address) : 16 비트에 어드레스 방식에 사용",
+    "content": "Logical Address는 02 의 세그먼트 주소와 데이터의 주소를 더한 값으로 설정된다. Ex) Logical Address = Segment (1200) + 데이터 (FFFF) = 111FF . ",
+    "url": "/docs/MCU/1#hex-code-02-extendedsegmentaddress--16-%EB%B9%84%ED%8A%B8%EC%97%90-%EC%96%B4%EB%93%9C%EB%A0%88%EC%8A%A4-%EB%B0%A9%EC%8B%9D%EC%97%90-%EC%82%AC%EC%9A%A9",
+    "relUrl": "/docs/MCU/1#hex-code-02-extendedsegmentaddress--16-비트에-어드레스-방식에-사용"
+  },"55": {
+    "doc": "MCU Firmware Filetypes",
+    "title": "Hex Code 03 (Start Segment Address) : 16 비트에 어드레스 방식에 사용",
+    "content": "데이터에서 앞 2바이트는 CS (Code Segment), 뒤 2 바이트는 IP (Instruction Pointer) 를 의미한다. ",
+    "url": "/docs/MCU/1#hex-code-03-start-segment-address--16-%EB%B9%84%ED%8A%B8%EC%97%90-%EC%96%B4%EB%93%9C%EB%A0%88%EC%8A%A4-%EB%B0%A9%EC%8B%9D%EC%97%90-%EC%82%AC%EC%9A%A9",
+    "relUrl": "/docs/MCU/1#hex-code-03-start-segment-address--16-비트에-어드레스-방식에-사용"
+  },"56": {
+    "doc": "MCU Firmware Filetypes",
+    "title": "Hex Code 04 (Extended Linear Address) : 32 비트에 어드레스 방식에 사용",
+    "content": "Logical Address는 04의 주소에 $2^16$을 곱한 주소(혹은 16비트만큼 좌측으로 비트 쉬프트)와 데이터의 주소를 더한 값으로 설정된다. Ex) Logical Address = (Segment (1200) « 16) + 데이터 (FFFF) = 1200FFFF . ",
+    "url": "/docs/MCU/1#hex-code-04-extended-linear-address--32-%EB%B9%84%ED%8A%B8%EC%97%90-%EC%96%B4%EB%93%9C%EB%A0%88%EC%8A%A4-%EB%B0%A9%EC%8B%9D%EC%97%90-%EC%82%AC%EC%9A%A9",
+    "relUrl": "/docs/MCU/1#hex-code-04-extended-linear-address--32-비트에-어드레스-방식에-사용"
+  },"57": {
+    "doc": "MCU Firmware Filetypes",
+    "title": "Hex Code 05 (Start Linear Address) : 32 비트에 어드레스 방식에 사용",
+    "content": "EIP 레지스터의 값을 지정한다. EIP (Extended Instruction Pointer, 32 bit IP) 레지스터는 다음 수행해야 할 명령어가 저장될 공간을 저장하는 공간이다. EIP 를 지정함으로써 동작을 제어할 수 있다. ",
+    "url": "/docs/MCU/1#hex-code-05-start-linear-address--32-%EB%B9%84%ED%8A%B8%EC%97%90-%EC%96%B4%EB%93%9C%EB%A0%88%EC%8A%A4-%EB%B0%A9%EC%8B%9D%EC%97%90-%EC%82%AC%EC%9A%A9",
+    "relUrl": "/docs/MCU/1#hex-code-05-start-linear-address--32-비트에-어드레스-방식에-사용"
+  },"58": {
+    "doc": "MCU Firmware Filetypes",
+    "title": "SREC 구조",
+    "content": "필요시 작성 . ",
+    "url": "/docs/MCU/1#srec-%EA%B5%AC%EC%A1%B0",
+    "relUrl": "/docs/MCU/1#srec-구조"
+  },"59": {
+    "doc": "MCU Firmware Filetypes",
+    "title": "MCU Firmware Filetypes",
+    "content": ". | MCU 구조 | 메모리 | Intel hex (*.hex) vs SREC | Intel HEX 구조 . | Hex Code 00 (Data) : 16/32 비트 어드레스 방식에 사용 | Hex Code 01 (End Of File) : 16/32 비트 어드레스 방식에 사용 | Hex Code 02 (Extended Segment Address) : 16 비트에 어드레스 방식에 사용 | Hex Code 03 (Start Segment Address) : 16 비트에 어드레스 방식에 사용 | Hex Code 04 (Extended Linear Address) : 32 비트에 어드레스 방식에 사용 | Hex Code 05 (Start Linear Address) : 32 비트에 어드레스 방식에 사용 | . | SREC 구조 | . 펌웨어는 MCU 등 하드웨어와 결합되는 소프트웨어를 말한다. 펌웨어를 통해 MCU 의 주변장치 및 연결된 모든 회로를 제어할 수 있다. 어떤 파일 형식이든 모두 이진수로 이뤄진 데이터 파일이지만, bin 파일과 다르게 hex, s19(srec) 파일 형식은 일정한 양식을 따르기 때문에 메모리의 어느 주소값에 어떤 데이터가 덮어 씌워져야 하는 지 등의 정보가 담겨져 있다. 반면, bin 파일은 단순히 데이터만 포함된 것이라고 보면 된다. MCU의 Flash Memory에 데이터가 새롭게 Reprogram (혹은 Flash) 되는 것이 어느 의미가 있는지 이해하기 어려울 수도 있다고 생각된다. 이러한 부분은 MCU의 동작 메커니즘 및 hex파일의 구조를 이해하고 나면 개선될 수 있다. 본인도 처음 hex파일을 접했을 때, hex파일을 메모장으로 열어 보고는 당황했던 기억이 있다. ",
+    "url": "/docs/MCU/1",
+    "relUrl": "/docs/MCU/1"
+  },"60": {
+    "doc": "MCU",
+    "title": "MCU",
+    "content": "최근 전자 제품들은 점점 더 똑똑해지고, 작고 가벼워지며 혁신을 거듭하고 있는 듯하다. 그 중심에는 MCU와 MCU와 결합하여 여러가지 기능을 지원하는 펌웨어가 있다. MCU (마이크로컨트롤러)는 내부에 많은 주변장치와 함께 CPU 코어, 메모리 등을 모두 포함하고 있는 소형 컴퓨터라고 생각하면 된다. 소형이다 보니 작은 메모리로도 MCU와 연결된 모든 회로를 보호하고 제어할 수 있도록 간결하고 효율적이게 코드를 작성해야 한다. 메모리를 절약하는 것이 중요하기 때문에 불필요한 변수 선언을 지양해야 한다. 임베디드 소프트웨어는 보통 무한 루프를 일정 주기로 수행하도록 구성되어 있기 때문에 정해진 주기 안에 모든 작업이 수행되어야 한다. 예를 들어서, 주기가 1초라면 1번 반복되어야 하는 코드가 모두 1초 이내에 종료가 되는 것이 보장되어야 한다. MCU용 펌웨어는 주로 C 언어로 작성되므로, 한 주기 이내에 함수가 모두 수행되지 못하고 종료되면 C 언어는 메모리를 자동으로 정리하지 않으므로 오동작이 발생할 우려가 있다. 향후 작성되는 글에서는 아주 기초적인 부분부터 다뤄볼 예정이다. 사실, 코딩이 낯선 사람들은 알겠지만 메모리 등을 효과적으로 사용하는 방법, 에러를 최소화하는 방법 들은 쉽게 와닿지 않는다. 이는 기초가 부족하기 때문이다. 차량용 Embedded SW를 개발할 때 MCU에 대해 잘 모르더라도 HW 지식과 기본적인 코딩 실력만 있으면 ASW 개발에는 문제가 없을 수도 있다. 하지만, 현장에서는 어떤 문제가 발생할지 모르고, 실제로 코드 개발시 깊게 접근하게 되면 ASW 담당자도 결국 MCU에 대한 이해 없이는 한계가 있다는 것을 알게될 것이다. 따라서 앞으로의 포스트들은 무엇하나 쉽게 다루고 넘어가지 않고 천천히 들여다 보는 방식으로 작성될 것이다. ",
+    "url": "/docs/MCU",
+    "relUrl": "/docs/MCU"
+  },"61": {
+    "doc": "소개",
+    "title": "소개",
+    "content": "안녕하세요. Jay 입니다. 이 블로그는 제가 전자전기 산업에 종사하며 얻은 지식들을 체계적으로 정리하기 위한 곳입니다. 부족한 부분들은 채워나가며 포스팅합니다. 건설적인 피드백은 언제나 환영합니다. ",
+    "url": "/",
+    "relUrl": "/"
+  }
+}
