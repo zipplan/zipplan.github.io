@@ -1,0 +1,24 @@
+{% if include.number %}
+	{% if include.state %}
+<details include.state markdown="block">
+	{% else %}
+<details open markdown="block">
+	{% endif %}
+  	<summary>
+    {{ include.number }}번 문제
+  	</summary>
+  	{: .text-delta }
+
+	{% comment %} {% if include.probImg %}
+		{% include modimg src="{{include.probImg}}" id="pro_{{include.number}}" width="auto" %}  
+	{% endif %}
+	{% if include.refImg %}
+		{% include modimg src="{{include.refImg}}" id="ans_{{include.number}}" width="auto" %}  
+	{% endif %} {% endcomment %}
+	{% if include.content %}
+	<div class="solve_div_content">
+		{{ include.content }}
+	</div>
+	{% endif %}
+</details>
+{% endif %}

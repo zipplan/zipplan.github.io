@@ -1,0 +1,49 @@
+<head>
+  <!-- HTML Meta -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <!-- Google AdSense -->
+  <script data-ad-client="ca-pub-5439110746367137" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ site.analytics.google.tracking_id }}', { 'anonymize_ip': {{ site.analytics.google.anonymize_ip | default: false }}});
+  </script>
+  {% seo %}
+  {% include head_custom.html %}
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ 'apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ 'favicon-32x32.png' | reltaive_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ 'favicon-16x16.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+
+  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
+
+  {% if site.search_enabled != false %}
+    <script src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}" charset="utf-8"></script>
+  {% endif %}
+
+  <script src="{{ '/assets/js/vendor/intense.min.js' | relative_url }}"></script>
+
+  {% if site.mermaid %}
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@{{ site.mermaid.version }}/dist/mermaid.min.js"></script>
+  {% endif %}
+
+  <script src="{{ 'assets/js/just-the-docs.js' | relative_url }}"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  {% for file in site.static_files %}
+    {% if file.path == site.favicon_ico or file.path == '/favicon.ico' %}
+      {% assign favicon = true %}
+    {% endif %}
+  {% endfor %}
+  {% if favicon %}
+    <link rel="icon" href="{{ site.favicon_ico | default: '/favicon.ico' | relative_url }}" type="image/x-icon">
+  {% endif %}
+  
+</head>
