@@ -1,5 +1,0 @@
-{% unless inlcude.src == "" %}
-  <div class="responsive-video-container">
-    <iframe src="{{ inlcude.src }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
-  </div>
-{% endunless %}
