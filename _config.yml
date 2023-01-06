@@ -16,7 +16,7 @@
 title: Electronic Engineer's Log
 description: Logs of my work at electronic engineering field
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://joonyoungjj.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zipplan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 
@@ -80,7 +80,7 @@ enable_copy_code_button: true
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-VW18SDWR8S"
+    tracking_id          : "G-719JHED801"
     anonymize_ip         : false # true, false (default)
 
 webmanifest:
