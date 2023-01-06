@@ -1,0 +1,21 @@
+<figure>
+  {% if include.width %}
+  <img name="img_{{include.id}}" src="{{include.src}}" alt="{{include.alt}}" style="width:{{include.width}}">
+  {% else %}
+  <img name="img_{{include.id}}" src="{{include.src}}" alt="{{include.alt}}" style="width:auto">
+  {% endif %}
+  {% if include.alt %}
+  <figcaption>{{include.alt}}</figcaption>
+  {% endif %}
+</figure>
+
+
+{% if include.id %}
+<div name="mdiv_{{include.id}}" class="modal">
+  <span name="mdiv_span_{{include.id}}" class="close">&times;</span>
+  <img src="{{include.src}}" class="modal-content">
+  <div>{{include.alt}}</div>
+</div>
+{% else %}
+  echo "error"
+{% endif %}
