@@ -140,14 +140,16 @@ layout: table_wrappers
 
         {% if page.has_children == true and page.has_toc != false %}
           <hr>
+          <div style="background-color: #E9FEEE">
           {% include toc_heading_custom.html %}
-          <ul>
-            {% for child in toc_list %}
-              <li>
-                <a href="{{ child.url | relative_url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
-              </li>
-            {% endfor %}
-          </ul>
+            <ul >
+              {% for child in toc_list %}
+                <li >
+                  <a  href="{{ child.url | relative_url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
         {% endif %}
 
         {% capture footer_custom %}
