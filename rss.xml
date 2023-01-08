@@ -1,0 +1,125 @@
+---
+layout: 
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+{%- assign title_pages = {{site.html_pages}}
+      | where_exp: "item", "item.title != nil" -%}
+
+{%- comment -%}
+  A page with `nav_exclude: true` does not appear in the main navigation.
+  If it has a `parent`, it may appear in the parent's table of contents.
+  If it specifies `has_children: true`, it should appear in the breadcrumbs
+  of the child pages, but its order in relation to other pages is irrelevant.
+  Pages that never appear can be removed from the pages that need to be sorted.
+  This optimisation can be significant on a site with many pages.
+  
+  In Jekyll 4, the pages to be sorted can be filtered by:
+  
+  {%- assign title_pages = title_pages
+        | where_exp: "item", "item.nav_exclude != true or item.parent != nil" -%}
+  
+  That filter is not allowed in Jekyll 3. The following iterative code gives the
+  same effect, but it is activated only when it will filter more than 50% of the
+  pages.
+{%- endcomment -%}
+
+{%- unless title_pages == empty -%}
+  {%- assign unsorted_pages = title_pages
+        | where_exp: "item", "item.parent == nil" 
+        | where_exp: "item", "item.nav_exclude == true" -%}
+  {%- assign title_pages_size = title_pages.size -%}
+  {%- assign unsorted_pages_percent = unsorted_pages.size
+        | times: 100 | divided_by: title_pages_size -%}
+  {%- if unsorted_pages_percent > 50 -%}
+    {%- assign sorted_pages = "" | split: "" -%}
+    {%- for item in title_pages -%}
+      {%- if item.nav_exclude != true or item.parent -%}
+        {%- assign sorted_pages = sorted_pages | push: item -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- assign title_pages = sorted_pages -%}
+  {%- endif -%}
+{%- endunless -%}
+
+{%- assign nav_order_pages = title_pages
+      | where_exp: "item", "item.nav_order != nil"  -%}
+{%- assign title_order_pages = title_pages
+      | where_exp: "item", "item.nav_order == nil" -%}
+
+{%- comment -%}
+  Divide the arrays of `nav_order_pages` and `title_order_pages` according to
+  the type of value.
+  
+  The first character of the result of `jsonify` is `"` only for strings.
+  Grouping by a single character also ensures the number of groups is small.
+{%- endcomment -%}
+
+{%- assign nav_number_pages = "" | split: "" -%}
+{%- assign nav_string_pages = "" | split: "" -%}
+{%- assign nav_order_groups = nav_order_pages
+      | group_by_exp: "item", "item.nav_order | jsonify | slice: 0" -%}
+{%- for group in nav_order_groups -%}
+  {%- if group.name == '"' -%}
+    {%- assign nav_string_pages = group.items -%}
+  {%- else -%}
+    {%- assign nav_number_pages = nav_number_pages | concat: group.items -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- unless nav_number_pages == empty -%}
+  {%- assign nav_number_pages = nav_number_pages | sort: "nav_order" -%}
+{%- endunless -%}
+
+{%- unless nav_string_pages == empty -%}
+  {%- if site.nav_sort == 'case_insensitive' -%}
+    {%- assign nav_string_pages = nav_string_pages | sort_natural: "nav_order" -%}
+  {%- else -%}
+    {%- assign nav_string_pages = nav_string_pages | sort: "nav_order" -%}
+  {%- endif -%}
+{%- endunless -%}
+
+{%- assign title_number_pages = "" | split: "" -%}
+{%- assign title_string_pages = "" | split: "" -%}
+{%- assign title_order_groups = title_order_pages
+      | group_by_exp: "item", "item.title | jsonify | slice: 0" -%}
+{%- for group in title_order_groups -%}
+  {%- if group.name == '"' -%}
+    {%- assign title_string_pages = group.items -%}
+  {%- else -%}
+    {%- assign title_number_pages = title_number_pages | concat: group.items -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- unless title_number_pages == empty -%}
+  {%- assign title_number_pages = title_number_pages | sort: "title" -%}
+{%- endunless -%}
+
+{%- unless title_string_pages == empty -%}
+  {%- if site.nav_sort == 'case_insensitive' -%}
+    {%- assign title_string_pages = title_string_pages | sort_natural: "title" -%}
+  {%- else -%}
+    {%- assign title_string_pages = title_string_pages | sort: "title" -%}
+  {%- endif -%}
+{%- endunless -%}
+
+{%- assign pages_list = nav_number_pages | concat: nav_string_pages
+      | concat: title_number_pages | concat: title_string_pages | sort: "date" | reverse -%}
+
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <link>{{ site.url }}</link>
+    <description>{{ site.description | xml_escape }}</description>
+	{%- for page in pages_list limit:10 -%}
+    <item>
+      <title>{{ page.title | xml_escape }}</title>
+      <link>{{ page.url | prepend: site.url }}</link>
+      <description>{{ page.description | xml_escape }}</description>
+      <pubDate>{{ page.date | xml_escape }}</pubDate>
+      <guid>{{ page.permalink | xml_escape }}</guid>
+    </item>
+	{% endfor %}
+  </channel>
+</rss>
