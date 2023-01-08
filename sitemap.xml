@@ -1,27 +1,9 @@
 ---
-layout: 
+layout: null
 ---
 
-{%- assign title_pages = {{site.html_pages}}
-      | where_exp: "item", "item.title != nil" -%}
-
-{%- comment -%}
-  A page with `nav_exclude: true` does not appear in the main navigation.
-  If it has a `parent`, it may appear in the parent's table of contents.
-  If it specifies `has_children: true`, it should appear in the breadcrumbs
-  of the child pages, but its order in relation to other pages is irrelevant.
-  Pages that never appear can be removed from the pages that need to be sorted.
-  This optimisation can be significant on a site with many pages.
-  
-  In Jekyll 4, the pages to be sorted can be filtered by:
-  
-  {%- assign title_pages = title_pages
-        | where_exp: "item", "item.nav_exclude != true or item.parent != nil" -%}
-  
-  That filter is not allowed in Jekyll 3. The following iterative code gives the
-  same effect, but it is activated only when it will filter more than 50% of the
-  pages.
-{%- endcomment -%}
+{% assign title_pages = {{site.html_pages}}
+      | where_exp: "item", "item.title != nil" %}
 
 {%- unless title_pages == empty -%}
   {%- assign unsorted_pages = title_pages
@@ -45,14 +27,6 @@ layout:
       | where_exp: "item", "item.nav_order != nil"  -%}
 {%- assign title_order_pages = title_pages
       | where_exp: "item", "item.nav_order == nil" -%}
-
-{%- comment -%}
-  Divide the arrays of `nav_order_pages` and `title_order_pages` according to
-  the type of value.
-  
-  The first character of the result of `jsonify` is `"` only for strings.
-  Grouping by a single character also ensures the number of groups is small.
-{%- endcomment -%}
 
 {%- assign nav_number_pages = "" | split: "" -%}
 {%- assign nav_string_pages = "" | split: "" -%}
@@ -107,30 +81,28 @@ layout:
 
 
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    
-    {%- for page in pages_list limit:10 -%}
-      <item>
-        <title>{{ page.title | xml_escape }}</title>
-        <description>{{ page.content | xml_escape }}</description>
-        <pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
-        <link>{{ page.url | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ page.url | prepend: site.url }}</guid>
-        {% for tag in page.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in page.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
-      </item>
-    {% endfor %}
-  </channel>
-</rss>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for post in pages_list %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      {% if post.lastmod %}
+        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% endif %}
+
+      {% if post.sitemap.changefreq %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {% else %}
+        <changefreq>weekly</changefreq>
+      {% endif %}
+
+      {% if post.sitemap.priority %}
+        <priority>{{ post.sitemap.priority }}</priority>
+      {% else %}
+        <priority>0.5</priority>
+      {% endif %}
+
+    </url>
+  {% endfor %}
+</urlset>

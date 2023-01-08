@@ -525,7 +525,6 @@ $( document ).ready(function() {
 		thisname = thisname.replace('img_', '');
 		thisname = 'mdiv_'.concat(thisname);
 		$( "div[name='"+ thisname + "']" ).css("display", "block");
-		console.log("tst");
 	  });
 	$( "div.modal > span" ).on( "click", function() {
 		this.parentNode.style.display = "none";
@@ -547,4 +546,3 @@ $(document).keydown(function(e) {
 		$( "div[name^='mdiv_']" ).css("display", "none");
    }
 });
-
