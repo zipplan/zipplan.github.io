@@ -30,6 +30,15 @@ h4,
   background-color: #E9FEEE;
 }
 
+.text-delta2 {
+  @include fs-5;
+
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background-color: #E9FEEE;
+}
+
 h4 code {
   text-transform: none;
 }

@@ -362,6 +362,8 @@ textarea { overflow: auto; }
 /* Add the correct display in Edge, IE 10+, and Firefox. */
 details { display: block; background-color: #E9FEEE; }
 
+details li, details a { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
 /* Add the correct display in all browsers. */
 summary { display: list-item; }
 
@@ -637,6 +639,10 @@ h3, .text-gamma { font-size: 16px !important; }
 h4, .text-delta { font-size: 11px !important; font-weight: 400; text-transform: uppercase; letter-spacing: 0.1em; background-color: #E9FEEE; }
 
 @media (min-width: 31.25rem) { h4, .text-delta { font-size: 12px !important; } }
+
+.text-delta2 { font-size: 16px !important; font-weight: 400; text-transform: uppercase; letter-spacing: 0.1em; background-color: #E9FEEE; }
+
+@media (min-width: 31.25rem) { .text-delta2 { font-size: 18px !important; } }
 
 h4 code { text-transform: none; }
 
