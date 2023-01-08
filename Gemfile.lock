@@ -3,7 +3,7 @@ PATH
   specs:
     just-the-docs (0.4.0.rc3)
       jekyll (>= 3.8.5)
-      jekyll-seo-tag (>= 2.0)
+      jekyll-seo-tag (>= 2.2.0)
       rake (>= 12.3.1)
 
 GEM
@@ -18,8 +18,8 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
-    ffi (1.15.5-x64-mingw-ucrt)
     ffi (1.15.5-x64-mingw32)
+    ffi (1.15.5-x64-unknown)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.10.0)
@@ -74,12 +74,11 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
-  x64-mingw-ucrt
   x64-mingw32
+  x64-unknown
 
 DEPENDENCIES
   bundler (~> 2.3.5)
-  jekyll
   just-the-docs!
   webrick (~> 1.7)
 

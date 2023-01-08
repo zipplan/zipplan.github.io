@@ -85,7 +85,7 @@
   },"14": {
     "doc": "Filters",
     "title": "수동필터의 설계",
-    "content": "&times; Passive LPF . &times; Passive HPF . &times; Passive Band Pass Filter . &times; Passive Band Stop Filter . &times; ",
+    "content": "&times; Passive LPF . &times; Passive HPF . &times; Passive Band Pass Filter . &times; Passive Band Stop Filter . &times; . ",
     "url": "/docs/Electric-Circuit/2#%EC%88%98%EB%8F%99%ED%95%84%ED%84%B0%EC%9D%98-%EC%84%A4%EA%B3%84",
     "relUrl": "/docs/Electric-Circuit/2#수동필터의-설계"
   },"15": {
@@ -211,7 +211,7 @@
   },"35": {
     "doc": "RLC Circuit (Transient Analysis)",
     "title": "RC 회로",
-    "content": "RC회로는 사실 RC 단독으로는 큰 의미가 없고, 다른 회로와 함께 응용될 때 그 의미가 있다. 그래도 커패시터의 충방전 메커니즘을 이해하는 데는 도움이 되는 회로이다. 아래 회로에서 접점이 a 로 연결되면 v에 의해서 C가 충전되고, b 로 연결되면 R 에 의해서 C가 방전된다. &times; 커패시터는 충전 방향과 방전 방향이 서로 반대이다. 아래 그림을 참조하면 충전중과 방전중 전자의 흐름이 반대임을 알 수 있다. 전류의 방향은 전자의 이동방향의 반대이다. &times; 위는 V = 100, R = 1MΩ, C = 1uF 이라고 설정했을 때의 그래프이다. RC회로는 통상 5τ 충전하면 커패시터가 완전 충전된다고 생각하면 되고, 5τ 방전하면 커패시터가 거의 완전 방전된다고 생각하면 된다. (τ = RC, 단위 초) 완충시 전류는 더 이상 흐르지 않지만, 전압은 일정하게 유지된다. 충전시 &times; 충전시 방전시 &times; 방전시 https://www.electronics-tutorials.ws/rc/rc_1.html &times; https://www.electronics-tutorials.ws/rc/rc_1.html ",
+    "content": "RC회로는 사실 RC 단독으로는 큰 의미가 없고, 다른 회로와 함께 응용될 때 그 의미가 있다. 그래도 커패시터의 충방전 메커니즘을 이해하는 데는 도움이 되는 회로이다. 아래 회로에서 접점이 a 로 연결되면 v에 의해서 C가 충전되고, b 로 연결되면 R 에 의해서 C가 방전된다. &times; 커패시터는 충전 방향과 방전 방향이 서로 반대이다. 아래 그림을 참조하면 충전중과 방전중 전자의 흐름이 반대임을 알 수 있다. 전류의 방향은 전자의 이동방향의 반대이다. &times; 위는 V = 100, R = 1MΩ, C = 1uF 이라고 설정했을 때의 그래프이다. RC회로는 통상 5τ 충전하면 커패시터가 완전 충전된다고 생각하면 되고, 5τ 방전하면 커패시터가 거의 완전 방전된다고 생각하면 된다. (τ = RC, 단위 초) 완충시 전류는 더 이상 흐르지 않지만, 전압은 일정하게 유지된다. 충전시 &times; 충전시 방전시 &times; 방전시 https://www.electronics-tutorials.ws/rc/rc_1.html &times; https://www.electronics-tutorials.ws/rc/rc_1.html . ",
     "url": "/docs/Electric-Circuit/4#rc-%ED%9A%8C%EB%A1%9C",
     "relUrl": "/docs/Electric-Circuit/4#rc-회로"
   },"36": {
@@ -367,7 +367,7 @@
   },"61": {
     "doc": "소개",
     "title": "소개",
-    "content": "안녕하세요. Jay 입니다. 이 블로그는 제가 전자전기 산업에 종사하며 얻은 지식들을 체계적으로 정리하기 위한 곳입니다. 부족한 부분들은 채워나가며 포스팅합니다. 건설적인 피드백은 언제나 환영합니다. ",
+    "content": "안녕하세요. ZipPlan 입니다. ",
     "url": "/",
     "relUrl": "/"
   }

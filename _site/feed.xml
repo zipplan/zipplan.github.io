@@ -1,13 +1,1067 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Electronic Engineer's Log</title>
-    <description>Logs of my work at electronic engineering field</description>
+    <title>ZipPlan</title>
+    <description>Find out career portfolio collection</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 04 Jan 2023 22:19:53 +0900</pubDate>
-    <lastBuildDate>Wed, 04 Jan 2023 22:19:53 +0900</lastBuildDate>
-    <generator>Jekyll v4.2.2</generator>
+    <pubDate>Sun, 08 Jan 2023 15:01:33 +0900</pubDate>
+    <lastBuildDate>Sun, 08 Jan 2023 15:01:33 +0900</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator><item>
+        <title>404</title>
+        <description>&lt;h1&gt;Page not found&lt;/h1&gt;
+
+&lt;p&gt;The page you requested could not be found. Try using the navigation or search to find what you're looking for or go to this &lt;a href=&quot;/&quot;&gt;site's home page&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 07 Jan 2023 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/404</link>
+        <guid isPermaLink="true">http://localhost:4000/404</guid>
+        
+        
+      </item>
+    <item>
+        <title>Resistor Structure</title>
+        <description>&lt;details close=&quot;&quot;&gt;
+  &lt;summary class=&quot;text-delta&quot;&gt;
+    Table of contents
+  &lt;/summary&gt;
+&lt;ol id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#저항&quot; id=&quot;markdown-toc-저항&quot;&gt;저항&lt;/a&gt;    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#구조&quot; id=&quot;markdown-toc-구조&quot;&gt;구조&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/details&gt;
+
+&lt;h1 id=&quot;저항&quot;&gt;저항&lt;/h1&gt;
+&lt;h2 id=&quot;구조&quot;&gt;구조&lt;/h2&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_1&quot; src=&quot;/images/d868fe604da98403077ee1d96a7af8b44f20e269a72fb5ffda821568006fc276.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_1&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_1&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/d868fe604da98403077ee1d96a7af8b44f20e269a72fb5ffda821568006fc276.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;저항은 실리콘 기판 위에 피막이나 와이어를 형성함으로써 얻어진다. 저항 공식을 생각해보면, 저항은 모든 물질에 존재하고 그 공식은 R = ρL/A (L : 길이, A : 단면적) 이다. 얇은 필름이나 얇은 와이어를 사용하면 단면적 A가 아주 작아서 저항이 커지게 된다. 단면적은 작게하면서, 경로를 길게하면 더 큰 저항을 얻을 수 있기 때문에 보통 피막 저항은 나선모양으로 필름을 형성하고, 와이어 역시 나선모양으로 감는다. 칩저항에서는 와이어를 최대한 길게 배치하기 위해 미로처럼 꼬불꼬불하게 되어 있는 것을 볼 수 있다.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 30 Dec 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/docs/Electric-Circuit/5</link>
+        <guid isPermaLink="true">http://localhost:4000/docs/Electric-Circuit/5</guid>
+        
+        <category>Passive Element</category>
+        
+        <category>Resistor Structure</category>
+        
+        
+      </item>
+    <item>
+        <title>RLC Circuit (Transient Analysis)</title>
+        <description>&lt;details close=&quot;&quot;&gt;
+  &lt;summary class=&quot;text-delta&quot;&gt;
+    Table of contents
+  &lt;/summary&gt;
+&lt;ol id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#임피던스&quot; id=&quot;markdown-toc-임피던스&quot;&gt;임피던스&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#rc-회로&quot; id=&quot;markdown-toc-rc-회로&quot;&gt;RC 회로&lt;/a&gt;    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#충전-공식&quot; id=&quot;markdown-toc-충전-공식&quot;&gt;충전 공식&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#방전-공식&quot; id=&quot;markdown-toc-방전-공식&quot;&gt;방전 공식&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#rl-회로&quot; id=&quot;markdown-toc-rl-회로&quot;&gt;RL 회로&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#커패시터의-전압-연속성--인덕터의-전류-연속성&quot; id=&quot;markdown-toc-커패시터의-전압-연속성--인덕터의-전류-연속성&quot;&gt;커패시터의 전압 연속성 &amp;amp; 인덕터의 전류 연속성&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#lc-회로-rlc---병렬회로&quot; id=&quot;markdown-toc-lc-회로-rlc---병렬회로&quot;&gt;LC 회로 (RLC) - 병렬회로&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#lc-회로-rlc---직렬회로&quot; id=&quot;markdown-toc-lc-회로-rlc---직렬회로&quot;&gt;LC 회로 (RLC) - 직렬회로&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;RLC는 그 수동소자이기 때문에 RLC만으로 이루어진 회로는 아무런 작동을 하지 못한다. 이번 포스트에서는 접압원과 RLC를 활용한 간단한 회로를 소개하려고 한다. RC 회로, RL회로, RLC 회로를 소개한다.&lt;/p&gt;
+
+&lt;h1 id=&quot;임피던스&quot;&gt;&lt;a href=&quot;/docs/Electric-Circuit/1&quot;&gt;임피던스&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;RLC 회로를 살펴보기 전 임피던스에 대해 잘 이해하고 넘어가야 한다. 임피던스를 이해하기 위해서는 먼저 리액턴스의 개념을 잘 이해하고 있어야 한다. 리액턴스란 말 그대로 반응이라는 뜻이다. 순수 저항은 저항만으로 이루어져있고, 커패시터와 인덕터는 각각 용량성 리액턴스 $1 \over wC$, 인덕터는 유도성 리액턴스 wL 을 가진다. 여기서 w는 각속도로 2πf 를 의미한다. 즉, 리액턴스는 주파수에 비례하는 값으로 고주파일 수록 유도성 리액턴스의 영향은 커지고 용량성 리액턴스의 영향은 작아진다. 정리하면, 고주파인 경우 유도성 리액턴스는 ∞ 로 보이고 저주파인 경우 유도성 리액턴스가 ∞ 로 보이게 된다.&lt;/p&gt;
+
+&lt;h1 id=&quot;rc-회로&quot;&gt;RC 회로&lt;/h1&gt;
+
+&lt;p&gt;RC회로는 사실 RC 단독으로는 큰 의미가 없고, 다른 회로와 함께 응용될 때 그 의미가 있다. 그래도 커패시터의 충방전 메커니즘을 이해하는 데는 도움이 되는 회로이다. 아래 회로에서 접점이 a 로 연결되면 v에 의해서 C가 충전되고, b 로 연결되면 R 에 의해서 C가 방전된다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_1&quot; src=&quot;/images/0aeaf5d7daf7197aae542457825944dea0cc02aa63db49fec44e8274e07aa0ed.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_1&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_1&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/0aeaf5d7daf7197aae542457825944dea0cc02aa63db49fec44e8274e07aa0ed.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;커패시터는 충전 방향과 방전 방향이 서로 반대이다. 아래 그림을 참조하면 충전중과 방전중 전자의 흐름이 반대임을 알 수 있다. 전류의 방향은 전자의 이동방향의 반대이다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_2&quot; src=&quot;/images/7f65df145e087dfba67758daeea3efbeb654b682c8f77e3ac0fe69f88fad1d54.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_2&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_2&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/7f65df145e087dfba67758daeea3efbeb654b682c8f77e3ac0fe69f88fad1d54.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;위는 V = 100, R = 1MΩ, C = 1uF 이라고 설정했을 때의 그래프이다. RC회로는 통상 5τ 충전하면 커패시터가 완전 충전된다고 생각하면 되고, 5τ 방전하면 커패시터가 거의 완전 방전된다고 생각하면 된다. (τ = RC, 단위 초) 완충시 전류는 더 이상 흐르지 않지만, 전압은 일정하게 유지된다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_3&quot; src=&quot;/images/bf472f48d65253ceac0eeb49d8a69a8d899d6b417bf1e0d3c4c5200dfa71bb69.png&quot; alt=&quot;충전시&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+  &lt;figcaption&gt;충전시&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_3&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_3&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/bf472f48d65253ceac0eeb49d8a69a8d899d6b417bf1e0d3c4c5200dfa71bb69.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;충전시&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_4&quot; src=&quot;/images/6aaa7c15d8133c78f701bedce9542a29006e5e0c00ad9ffbf4e78c94ab3908e3.png&quot; alt=&quot;방전시&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+  &lt;figcaption&gt;방전시&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_4&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_4&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/6aaa7c15d8133c78f701bedce9542a29006e5e0c00ad9ffbf4e78c94ab3908e3.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;방전시&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_5&quot; src=&quot;/images/3cc89c5c5fd56d5ed2ed445625367a1de539bb791014fa88b15420ab861a6929.png&quot; alt=&quot;https://www.electronics-tutorials.ws/rc/rc_1.html&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+  &lt;figcaption&gt;https://www.electronics-tutorials.ws/rc/rc_1.html&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_5&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_5&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/3cc89c5c5fd56d5ed2ed445625367a1de539bb791014fa88b15420ab861a6929.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;https://www.electronics-tutorials.ws/rc/rc_1.html&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- 중간광고 --&gt;
+&lt;p&gt;&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-5439110746367137&quot; data-ad-slot=&quot;1077048458&quot; data-ad-format=&quot;auto&quot; data-full-width-responsive=&quot;true&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;충전-공식&quot;&gt;충전 공식&lt;/h2&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_6&quot; src=&quot;/images/2c9df0030584bd940354d172ed031e2f746e6e1c0f606806ff76de8a9f568806.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_6&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_6&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/2c9df0030584bd940354d172ed031e2f746e6e1c0f606806ff76de8a9f568806.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;방전-공식&quot;&gt;방전 공식&lt;/h2&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_7&quot; src=&quot;/images/ae62100dfb5b5ca8737e4ad3f3e723c59b54be7b6ca58df3159b0fe8d69c51f5.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_7&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_7&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/ae62100dfb5b5ca8737e4ad3f3e723c59b54be7b6ca58df3159b0fe8d69c51f5.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;rl-회로&quot;&gt;RL 회로&lt;/h1&gt;
+
+&lt;p&gt;인덕터는 순간적인 고주파 성분을 억제하기 위해 사용한다. 아래 회로를 보도록 하자.&lt;/p&gt;
+
+&lt;p&gt;인덕터 역시 5τ 충전하면 완전히 충전되고, 5τ 방전하면 완전히 방전된다. 완충시, 전류는 계속해서 흐르지만 전압은 0이 된다.&lt;/p&gt;
+
+&lt;p&gt;위 그림에서 파란극은 S극이고, 빨간극은 N극이다. 아래와 같이, 자기력선은 N극에서 시작하여 S극에서 끝나므로, 위 그림에서 막대자석이 코일에 가까워지면 자속이 왼쪽에서 오른쪽 방향으로 증가하므로 전압은 패러데이의 법칙에 따라 자속이 증가하는 반대 방향으로 전압이 생성된다. 위 그림을 보면 멀티미터의 선이 빨간 쪽이 + 쪽이고, 까만 선이 - 쪽 단자이다.&lt;/p&gt;
+
+&lt;p&gt;렌츠의 법칙에 따라서 기전력은 자속이 증가하는 것을 막는 방향쪽으로 생성된다. 그 크기는 패러데이의 법칙에 따라 자속의 변화량을 통해 알 수 있다. 전자기 유도 현상은 작용-반작용 현상의 일종이다. 위 그림에서 막대자석이 N극 쪽을 코일쪽으로 가져다대면 코일이 마치 막대자석이 가까이 오는 것을 방해하는 것처럼 내부에 자기장이 형성된다. 도선에 흐르는 전류의 방향은 아래와 같이 오른 나사의 법칙을 통해 알 수 있다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_8&quot; src=&quot;/images/11ff01552aaa1f9ec31791cbec3736bddeb2b65314a8449eb9e6b59e0d826a5d.png&quot; alt=&quot;오른 나사 법칙&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+  &lt;figcaption&gt;오른 나사 법칙&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_8&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_8&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/11ff01552aaa1f9ec31791cbec3736bddeb2b65314a8449eb9e6b59e0d826a5d.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;오른 나사 법칙&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_9&quot; src=&quot;/images/1694b02b3aedee858c9a5ad79007870e279cee37ab94b4d477fb7c07b29f5b3e.png&quot; alt=&quot;자기력선의 방향 (N-&amp;gt;S)&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+  &lt;figcaption&gt;자기력선의 방향 (N-&amp;gt;S)&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_9&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_9&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/1694b02b3aedee858c9a5ad79007870e279cee37ab94b4d477fb7c07b29f5b3e.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;자기력선의 방향 (N-&amp;gt;S)&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;참고로, RC회로 및 RL 회로 등은 주파수 응답을 해석해보면 필터로도 사용할 수 있는데, 이는 이후에 다뤄보기로 하겠다.&lt;/p&gt;
+
+&lt;h1 id=&quot;커패시터의-전압-연속성--인덕터의-전류-연속성&quot;&gt;커패시터의 전압 연속성 &amp;amp; 인덕터의 전류 연속성&lt;/h1&gt;
+
+&lt;p&gt;이제 커패시터는 전압은 연속적이고, 인덕터는 전류가 연속적이라는 것을 알게 되었다. 여기서 중요한 것은 커패시터는 방전시 전하의 이동방향이 반전되어 전류의 흐름이 충전전류의 방향과 반대가 되고, 인덕터는 방전시 렌츠의 법칙에 의해서 자속이 변화하는 방향의 반대로 곧바로 전압이 걸리게 된다.&lt;/p&gt;
+
+&lt;p&gt;전압 연속성 덕분에 전력전자에서는 빠른 주기로 스위칭하는 회로에 커패시터를 삽입하여 전압을 일정하게 유지하는 데 사용하고, 전류 연속성을 이용해서 전류를 일정하게 유지하기 위해 인덕터를 사용한다.&lt;/p&gt;
+
+&lt;h1 id=&quot;lc-회로-rlc---병렬회로&quot;&gt;LC 회로 (RLC) - 병렬회로&lt;/h1&gt;
+
+&lt;p&gt;커패시터는 유전체에 전압이 걸려서 분극이 포화될 때까지 충전을 계속한다. 커패시터가 완전히 충전되면 유전체 내부 전기장은 일정하게 유지되고, 더 이상 전류는 흐르지 않는다. 인덕터는 전류가 흘르면 자기 포화현상이 일어날 때까지 충전된다. 자기 포화현상이 일어나면 인덕터 내부에는 자속의 변화가 없으므로 인덕터는 순수 도선처럼 동작하며 인덕터 양단의 전압이 0V가 된다. 하지만, 커패시터나 인덕터 어느 쪽에서라도 전속이나 자속이 누설되면 이 평형상태가 깨져서 전압과 전류가 진동하게 된다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_10&quot; src=&quot;/images/6e32cc3399c38addf0fea7868b5cba12178deb48ff35ce8d536647e71491da4c.png&quot; alt=&quot;https://en.wikipedia.org/wiki/LC_circuit&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+  &lt;figcaption&gt;https://en.wikipedia.org/wiki/LC_circuit&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_10&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_10&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/6e32cc3399c38addf0fea7868b5cba12178deb48ff35ce8d536647e71491da4c.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;https://en.wikipedia.org/wiki/LC_circuit&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;아래와 같은 RLC 병렬회로를 고려해보자.&lt;/p&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_11&quot; src=&quot;/images/77c794580ad39789c45cad69b3ac9fc60792e29d8e122ca3caeeab312c2e627d.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_11&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_11&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/77c794580ad39789c45cad69b3ac9fc60792e29d8e122ca3caeeab312c2e627d.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;위와 같은 LC 회로를 구성할 때, 주의할 점은 공명(또는 공진 또는 Resonance) 현상이다. 용량성 리액턴스는 1/wC로 표현되고, 유도성 리액턴스는 wL로 표현된다. 여기서 주의할 점은 용량성 리액턴스는 주파수 반비례이고, 유도성 리액턴스는 주파수 비례라는 것과, 임피던스 계산시 용량성 리액턴스는 유도성 리액턴스를 상쇄시키는 방향이라는 것이다. 따라서, 특정 주파수에서는 주파수가 0이 될 수 있다. 이 주파수가 바로 공진주파수이다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_12&quot; src=&quot;/images/f77dfb5a54743c83620e19ac387478290e70586d2482844a68280b3df52bd569.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_12&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_12&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/f77dfb5a54743c83620e19ac387478290e70586d2482844a68280b3df52bd569.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;공진주파수에서는 낮은 임피던스를 갖기 때문에 순간적으로 전류의 진폭이 증가한다.&lt;/p&gt;
+
+&lt;h1 id=&quot;lc-회로-rlc---직렬회로&quot;&gt;LC 회로 (RLC) - 직렬회로&lt;/h1&gt;
+
+&lt;p&gt;직렬회로는 공진주파수에서 오히려 임피던스가 무한대로 발산한다는 점이 다르다. 공진주파수에서는 개방회로로 동작한다.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 30 Dec 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/docs/Electric-Circuit/4</link>
+        <guid isPermaLink="true">http://localhost:4000/docs/Electric-Circuit/4</guid>
+        
+        <category>Passive Element</category>
+        
+        <category>RLC Circuit</category>
+        
+        
+      </item>
+    <item>
+        <title>자격증</title>
+        <description>&lt;h1 id=&quot;전기기사-23-01--현재&quot;&gt;&lt;a href=&quot;(https://www.q-net.or.kr/crf005.do?id=crf00503&amp;amp;jmCd=1150)&quot;&gt;전기기사&lt;/a&gt; (‘23. 01 ~ 현재)&lt;/h1&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_1&quot; src=&quot;/images/01fd017634973eaf904c8811b0ad728aef68c4136502a3a88064c168e4099149.png&quot; alt=&quot;2023년 전기기사 시험 일정&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+  &lt;figcaption&gt;2023년 전기기사 시험 일정&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_1&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_1&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/01fd017634973eaf904c8811b0ad728aef68c4136502a3a88064c168e4099149.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;2023년 전기기사 시험 일정&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;과목
+    &lt;ul&gt;
+      &lt;li&gt;필기 : 1. 전기자기학  2. 전력공학  3. 전기기기  4. 회로이론 및 제어공학  5. 전기설비기술기준&lt;/li&gt;
+      &lt;li&gt;실기 : 전기설비설계 및 관리&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 30 Dec 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/docs/Certification</link>
+        <guid isPermaLink="true">http://localhost:4000/docs/Certification</guid>
+        
+        <category>Intro</category>
+        
+        
+      </item>
+    <item>
+        <title>MCU</title>
+        <description>&lt;p&gt;최근 전자 제품들은 점점 더 똑똑해지고, 작고 가벼워지며 혁신을 거듭하고 있는 듯하다. 그 중심에는 MCU와 MCU와 결합하여 여러가지 기능을 지원하는 펌웨어가 있다. MCU (마이크로컨트롤러)는 내부에 많은 주변장치와 함께 CPU 코어, 메모리 등을 모두 포함하고 있는 소형 컴퓨터라고 생각하면 된다. 소형이다 보니 작은 메모리로도 MCU와 연결된 모든 회로를 보호하고 제어할 수 있도록 간결하고 효율적이게 코드를 작성해야 한다. 메모리를 절약하는 것이 중요하기 때문에 불필요한 변수 선언을 지양해야 한다.&lt;/p&gt;
+
+&lt;p&gt;임베디드 소프트웨어는 보통 무한 루프를 일정 주기로 수행하도록 구성되어 있기 때문에 정해진 주기 안에 모든 작업이 수행되어야 한다. 예를 들어서, 주기가 1초라면 1번 반복되어야 하는 코드가 모두 1초 이내에 종료가 되는 것이 보장되어야 한다. MCU용 펌웨어는 주로 C 언어로 작성되므로, 한 주기 이내에 함수가 모두 수행되지 못하고 종료되면 C 언어는 메모리를 자동으로 정리하지 않으므로 오동작이 발생할 우려가 있다.&lt;/p&gt;
+
+&lt;p&gt;향후 작성되는 글에서는 아주 기초적인 부분부터 다뤄볼 예정이다. 사실, 코딩이 낯선 사람들은 알겠지만 메모리 등을 효과적으로 사용하는 방법, 에러를 최소화하는 방법 들은 쉽게 와닿지 않는다. 이는 기초가 부족하기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;차량용 Embedded SW를 개발할 때 MCU에 대해 잘 모르더라도 HW 지식과  기본적인 코딩 실력만 있으면 ASW 개발에는 문제가 없을 수도 있다. 하지만, 현장에서는 어떤 문제가 발생할지 모르고, 실제로 코드 개발시 깊게 접근하게 되면 ASW 담당자도 결국 MCU에 대한 이해 없이는 한계가 있다는 것을 알게될 것이다. 따라서 앞으로의 포스트들은 무엇하나 쉽게 다루고 넘어가지 않고 천천히 들여다 보는 방식으로 작성될 것이다.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Dec 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/docs/MCU</link>
+        <guid isPermaLink="true">http://localhost:4000/docs/MCU</guid>
+        
+        <category>Intro</category>
+        
+        
+      </item>
+    <item>
+        <title>Passive Elements &amp; Standards</title>
+        <description>&lt;details close=&quot;&quot;&gt;
+  &lt;summary class=&quot;text-delta&quot;&gt;
+    Table of contents
+  &lt;/summary&gt;
+&lt;ol id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#전기-표준&quot; id=&quot;markdown-toc-전기-표준&quot;&gt;전기 표준&lt;/a&gt;    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#표준-저항-iec60063---e-series&quot; id=&quot;markdown-toc-표준-저항-iec60063---e-series&quot;&gt;표준 저항 (IEC60063 - E series)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#회로도-내-저항커패시터-표기법과-허용오차-iec60062---rkm-code&quot; id=&quot;markdown-toc-회로도-내-저항커패시터-표기법과-허용오차-iec60062---rkm-code&quot;&gt;회로도 내 저항/커패시터 표기법과 허용오차 (IEC60062 - RKM Code)&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#저항&quot; id=&quot;markdown-toc-저항&quot;&gt;저항&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#커패시터&quot; id=&quot;markdown-toc-커패시터&quot;&gt;커패시터&lt;/a&gt;    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#전기용량-단위--패럿-f-farad&quot; id=&quot;markdown-toc-전기용량-단위--패럿-f-farad&quot;&gt;전기용량 단위 : 패럿 F (Farad)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#전하-단위--쿨롱-coulomnb&quot; id=&quot;markdown-toc-전하-단위--쿨롱-coulomnb&quot;&gt;전하 단위 : 쿨롱 (Coulomnb)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#유전체와-유전율&quot; id=&quot;markdown-toc-유전체와-유전율&quot;&gt;유전체와 유전율&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#인덕터&quot; id=&quot;markdown-toc-인덕터&quot;&gt;인덕터&lt;/a&gt;    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#오른나사의-법칙&quot; id=&quot;markdown-toc-오른나사의-법칙&quot;&gt;오른나사의 법칙&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#유도용량인덕턴스-단위--헨리-h-henry&quot; id=&quot;markdown-toc-유도용량인덕턴스-단위--헨리-h-henry&quot;&gt;유도용량(인덕턴스) 단위 : 헨리 H (Henry)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#자화와-투자율&quot; id=&quot;markdown-toc-자화와-투자율&quot;&gt;자화와 투자율&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#자화-방향&quot; id=&quot;markdown-toc-자화-방향&quot;&gt;자화 방향&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#자기포화--분극포화&quot; id=&quot;markdown-toc-자기포화--분극포화&quot;&gt;자기포화 &amp;amp; 분극포화&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#선속-線束-flux&quot; id=&quot;markdown-toc-선속-線束-flux&quot;&gt;선속 (線束, Flux)&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;전기 관련 분야의 회사나 학교를 다닌 사람들은 대부분 커패시터가 터지거나 일부 소자들이 망가지는 것을 경험해본적 있을 것이다. 소자가 생각보다 너무 쉽게 망가지는 것을 본 사람들은 소자들의 실제 특성을 이해하고 기억하고 있는 것도 전자전기 공학자로써 꼭 필요한 덕목이란 것을 이해하고 있을 것이다.&lt;/p&gt;
+
+&lt;p&gt;RLC의 기본적인 특성말고도 현장에서 근무하기 위해서는 실제 전기 산업에서 사용되는 표준을 이해하고 있어야 한다. 아래에 저항과 커패시터에 관한 두 표준을 소개한다.&lt;/p&gt;
+
+&lt;h1 id=&quot;전기-표준&quot;&gt;전기 표준&lt;/h1&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_1&quot; src=&quot;/images/34ea771384eaee7d9df6c185c37c316f126ffa5dcf0c1dfe2b38f425fb4aa99e.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_1&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_1&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/34ea771384eaee7d9df6c185c37c316f126ffa5dcf0c1dfe2b38f425fb4aa99e.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;전기 관련 표준을 만드는 곳이다. 우리가 공부해온 내용을 현장에서 제대로 사용하기 위해서는 실제로 사용되고 있는 표준에 대해서도 학습이 필요하다.&lt;/p&gt;
+
+&lt;h2 id=&quot;표준-저항-iec60063---e-series&quot;&gt;표준 저항 (IEC60063 - E series)&lt;/h2&gt;
+
+&lt;p&gt;과거에는 저항이나 커패시터를 생산하는 업체들이 표준화된 값이 없어서 재고 관리가 불가능할 수준이었다고 한다. 그래서 저항과 커패시터의 크기를 표준화하기 위해 IEC (국제전기기술위원회) 에서는 IEC 60063 (preferred values for the resistance of resistors and for the capacitance of capacitors) 을 제정하였다.&lt;/p&gt;
+
+&lt;p&gt;저항과 커패시턴스의 크기는 E3, E6, E12, E24, E48, E96, E192로 분류된다. En 은 어떤 값을 x% 씩 n번 곱하면 10배가 되도록 계산하는 방법이라고 생각하면 된다.&lt;/p&gt;
+
+&lt;p&gt;예를 들면, E3의 경우 특정 업체가 10~10k옴의 저항을 판매한다고 가정한다면 10을 n번 곱했을 때 100이 되도록 해야 하므로 그 값은 10의 세제곱근이 된다. 따라서 2.154% 씩 증가하면 되는데, 그 기준값이 10을 기준으로 정수로 표현되므로 반올림하여 두번째 값은 10*2.154를 올림한 22가 되고, 세번째 값은 $10 * 2.154^2$을 올림한 47이 된다. E3, E6 등 E Seires 별 표준 저항은 검색하면 그 표를 쉽게 구할 수 있다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;공차 (Tolerance)
+    &lt;ul&gt;
+      &lt;li&gt;E3 : 40%&lt;/li&gt;
+      &lt;li&gt;E6 : 20%&lt;/li&gt;
+      &lt;li&gt;E12 : 10%&lt;/li&gt;
+      &lt;li&gt;E24 : 5%&lt;/li&gt;
+      &lt;li&gt;E48 : 2%&lt;/li&gt;
+      &lt;li&gt;E96 : 1%&lt;/li&gt;
+      &lt;li&gt;E192 : 0.5% and so on&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- 중간광고 --&gt;
+&lt;p&gt;&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-5439110746367137&quot; data-ad-slot=&quot;1077048458&quot; data-ad-format=&quot;auto&quot; data-full-width-responsive=&quot;true&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;회로도-내-저항커패시터-표기법과-허용오차-iec60062---rkm-code&quot;&gt;회로도 내 저항/커패시터 표기법과 허용오차 (&lt;a href=&quot;https://en.wikipedia.org/wiki/RKM_code#Tolerance_code&quot;&gt;IEC60062 - RKM Code&lt;/a&gt;)&lt;/h2&gt;
+
+&lt;p&gt;IEC는 저항 및 커패시터의 크기 및 허용오차를 표기법을 RKM 으로 정리했다. 사실 RKM 코드는 잘 쓰이지 않지만 종종 J급 저항, B급 커패시터 등 오차를 표현 코드에 대해 들어본 적이 있을텐데 이 것은 RKM 코드로부터 유래된 것이라는 정도만 알고 넘어가면 된다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_2&quot; src=&quot;/images/3e37c54b6be70db248763217e780dcab0c5f0336ed0fba28a2875ef073af80b7.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_2&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_2&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/3e37c54b6be70db248763217e780dcab0c5f0336ed0fba28a2875ef073af80b7.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;저항&quot;&gt;저항&lt;/h1&gt;
+
+&lt;p&gt;저항은 고정저항, 가변저항, 배리스터 등 종류가 다양한데 용도에 따라 사용해야 하고, 회로를 설계할 때에는 용도에 따라서 전압정격, 파워정격, 오차범위 등을 고려하여 선택해야 한다. 아래 도표는 다양한 종류의 저항을 보여준다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_3&quot; src=&quot;/images/e4b8b06612037815d59922237dd246b0af8158de59a301418de8e3c5f75325bb.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_3&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_3&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/e4b8b06612037815d59922237dd246b0af8158de59a301418de8e3c5f75325bb.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;저항은 전자파 설계를 하는 등 임피던스에 아주 민감한 업무를 수행하는 것이 아니라면 웬만해서는 순수저항으로 생각하더라도 단순 디자인 단계에서는 문제가 없었다.&lt;/p&gt;
+
+&lt;p&gt;만약 전자파 관련 일을 맡게 된다면 이론과 실제 저항의 차이에 대해서 더 디테일하게 다뤄볼 생각도 있지만 아직은 필요가 없어서 별도로 다루진 않겠다.&lt;/p&gt;
+
+&lt;h1 id=&quot;커패시터&quot;&gt;커패시터&lt;/h1&gt;
+
+&lt;p&gt;커패시터는 전기를 전기장의 형태로 저장하는 장치이다. 가장 기본적인 형태는 두개의 평행판에 사이에 유전율이 높은 유전체를 삽입한 구조이다. 유전율이 높을 수록 커패시터에 저장할 수 있는 전하는 많아진다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_4&quot; src=&quot;/images/847cd30840012aa2931cdc735e7daf033a0e05b86a1d12ca4f722bebe7c05a78.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_4&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_4&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/847cd30840012aa2931cdc735e7daf033a0e05b86a1d12ca4f722bebe7c05a78.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;커패시터에 어떻게 전하가 저장되는지 더 깊게 이해하고 싶다면 유전체에 대해 더 깊이 생각해볼 필요가 있다. 관심이 있는 사람들은 아래의 내용을 참조하길 바란다.&lt;/p&gt;
+
+&lt;h2 id=&quot;전기용량-단위--패럿-f-farad&quot;&gt;전기용량 단위 : 패럿 F (Farad)&lt;/h2&gt;
+
+&lt;p&gt;전기용량의 단위인 패럿은 1V의 전위차를 주었을 때 1쿨롱의 전하를 대전시키는 용량을 말한다. 즉 1F = 1C/1V&lt;/p&gt;
+
+&lt;h2 id=&quot;전하-단위--쿨롱-coulomnb&quot;&gt;전하 단위 : 쿨롱 (Coulomnb)&lt;/h2&gt;
+
+&lt;p&gt;전하의 단위인 쿨롱은 전류 1A가 1초동안 흘렀을 때 이동한 전하의 양을 의미한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;유전체와-유전율&quot;&gt;유전체와 유전율&lt;/h2&gt;
+
+&lt;p&gt;유전체는 단어 자체의 의미에 집중하면 유전, 즉 전기를 유도하는 물체라고 할 수 있다. 유전체는 도체와는 다르다. 도체에는 자유전하가 있어서 전류를 흘러주면 자유전하에 의해 전류가 흐른다. 하지만, 유전체는 도체보다는 부도체에 가깝다. 그렇다면 전하도 없는 유전체가 어떻게 전하를 저장하고, 전기를 유도한다는 것일까? 그 답은 분극에 있다. 분극이란 극성에 따라 나뉜다는 말로 무극성 분자에 전기장을 인가하면 아래와 같이 분극된다. 아래와 같이 분극된 형태의 분자를 전기쌍극자라 부른다. 이 전기쌍극자가 전기장에 따라 배열되며 전하가 저장되고, 가해진 전기장이 사라지면 전기쌍극자가 다시 원래대로 돌아가려는 힘에 의해 전기가 흐른다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_5&quot; src=&quot;/images/46c520727941dbbb7328b1f6b553aefdf43e1929da8595ecec6df97a1e8fbc86.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_5&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_5&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/46c520727941dbbb7328b1f6b553aefdf43e1929da8595ecec6df97a1e8fbc86.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;분극이 되는 정도에 따라서, 유전체가 저장할 수 있는 전하량이 달라지게 되는데 이 분극이 되는 정도를 전화율 χe 이라 한다. 이 전화율에 1을 더하면 상대유전율 (또는 유전상수) εr 이 구해지고, 또 이 상대유전율과 자유공간의 유전율 ε0 을 곱하면 유전체의 유전율 ε을 계산할 수 있다. 아래 정리된 식에서 D는 전속밀도로, 전기장이 어느 유전체에 가해졌을 때, 분극되어 분극에 의해 생성된 전기쌍극자가 만들어낸 전속 (전기력선의 총합) 의 밀도가 얼마나 되는지를 나타내는 값이다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_6&quot; src=&quot;/images/a516a53b97de7d2c0f3e4cdb4f8154a9bb8c69dd8ae75a038d0f46f03c8d47b3.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_6&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_6&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/a516a53b97de7d2c0f3e4cdb4f8154a9bb8c69dd8ae75a038d0f46f03c8d47b3.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p class=&quot;note&quot;&gt;유전율 단위 F/m, 전기장 단위 V/m, 전화율/유전상수는 단위가 없는 상수, 전속밀도 단위 C/m2&lt;/p&gt;
+
+&lt;h1 id=&quot;인덕터&quot;&gt;인덕터&lt;/h1&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_7&quot; src=&quot;/images/7a055578d1cd05fc0f1756743134ff6f544b4ff356335888e99085853a355282.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_7&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_7&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/7a055578d1cd05fc0f1756743134ff6f544b4ff356335888e99085853a355282.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;인덕터는 전류를 자기장의 형태로 변환하여 전류의 흐름을 방해한다. 앞으로 다루겠지만, 인덕터의 리액턴스는 wL로 표현되는데 w는 각속도로 2πfL로 표현된다. 즉, 리액턴스가 주파수에 정비례하기때문에 고주파일수록 효과적으로 차단한다고 볼 수 있다. 인덕터는 작게 보면 앙페르 회로 법칙(암페어 주회법칙)에 따라서 자기장을 생성한다. 전체적인 자기장의 방향은 앙페르 오른 나사 법칙을 참고하면 알 수 있다.&lt;/p&gt;
+
+&lt;h2 id=&quot;오른나사의-법칙&quot;&gt;&lt;a href=&quot;http://www.ktword.co.kr/test/view/view.php?m_temp1=4395&quot;&gt;오른나사의 법칙&lt;/a&gt;&lt;/h2&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_8&quot; src=&quot;/images/363fed6cef474358ab8c112ab89dc6d7945d396c3ce7af1acf9928af6a333391.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_8&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_8&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/363fed6cef474358ab8c112ab89dc6d7945d396c3ce7af1acf9928af6a333391.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;전류가 자계를 발생시키는 관계를 오른나사에 비유한 법칙&lt;/p&gt;
+
+&lt;h2 id=&quot;유도용량인덕턴스-단위--헨리-h-henry&quot;&gt;유도용량(인덕턴스) 단위 : &lt;a href=&quot;https://en.wikipedia.org/wiki/Henry_(unit)&quot;&gt;헨리 H (Henry)&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;1헨리는 1A의 전류가 도선에 흘렀을 때 생성되는 자속의 크기를 의미한다.&lt;/p&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_9&quot; src=&quot;/images/de5903f43611bbdb6fbb1b5d9bde6bd4a12e1505fd92fb62523065ae03cb2c76.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_9&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_9&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/de5903f43611bbdb6fbb1b5d9bde6bd4a12e1505fd92fb62523065ae03cb2c76.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;자화와-투자율&quot;&gt;자화와 투자율&lt;/h2&gt;
+
+&lt;p&gt;자계에서도 분극과 비슷한 개념이 존재한다. 바로 자화인데, 아래와 같이 자기쌍극자가 자기장의 방향에 따라 자기 쌍극자가 배열되는 현상을 말한다. 매질에서 이 자화가 일어나는 정도를 자화율이라고 하고, 그 값은 매질에 따라 다르다. 투자율은 자화율에 1을 더한 값에 자유공간에서의 투자율을 곱한 값으로 매질에 자기장이 가해졌을 때, 얼마만큼의 자속이 생성되는 지를 의미하는 값이다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_10&quot; src=&quot;/images/c4abdc3d509db9e54927295721f595600284c77a18d5a9b8718753cccb9d6e0b.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_10&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_10&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/c4abdc3d509db9e54927295721f595600284c77a18d5a9b8718753cccb9d6e0b.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_11&quot; src=&quot;/images/de4f4a27aa964bf57f22a577921872cda5f17d835d8150ce752fdf1c69359496.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_11&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_11&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/de4f4a27aa964bf57f22a577921872cda5f17d835d8150ce752fdf1c69359496.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;B는 자속밀도, H는 자기장을 의미한다.&lt;/p&gt;
+
+&lt;p class=&quot;note&quot;&gt;자화율, 상대투자율은 단위가 없는 상수.&lt;br /&gt;
+투자율 단위 H/m, 자속밀도 단위 T = Wb/m2, 자기장 단위 A/m&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_12&quot; src=&quot;/images/50f2a7837621ec0cfd03a8ecfea571bfc8b87ccb73e94ce52f61b8f21506ab24.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_12&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_12&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/50f2a7837621ec0cfd03a8ecfea571bfc8b87ccb73e94ce52f61b8f21506ab24.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;자화-방향&quot;&gt;자화 방향&lt;/h2&gt;
+
+&lt;h2 id=&quot;자기포화--분극포화&quot;&gt;자기포화 &amp;amp; 분극포화&lt;/h2&gt;
+
+&lt;p&gt;전기장이 유전체에 가해지면 분극이 일어나는데, 모든 전기쌍극자가 분극되면 전기장이 더 강하게 가해져도 더 이상 분극이 일어나지 않는다. 마찬가지로 자성체에 자기장이 가해지면 자화가 일어나는데, 모든 자기 쌍극자가 자화되면 자기장이 더 강하게 가해져도 더 이상 자화가 일어나지 않는다. 이를 각각 분극 포화, 자기 포화라고 하는데 이렇게 되면 더 이상 전속/자속이 증가하지 않는다.&lt;/p&gt;
+
+&lt;p&gt;아래와 같은 히스테리시스 곡선에 따라 포화된다.&lt;/p&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_13&quot; src=&quot;/images/557a58291fe410ba55954a2377b9e4ca11b3ae454fd278f71c100d65dec0e069.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_13&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_13&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/557a58291fe410ba55954a2377b9e4ca11b3ae454fd278f71c100d65dec0e069.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;선속-線束-flux&quot;&gt;선속 (線束, Flux)&lt;/h1&gt;
+
+&lt;p&gt;위에서 자속, 전속이라는 말을 사용했는데 괜시리 어려운 말처럼 느껴지지만 사실 어렵지 않다. 한자어를 뜯어보자면 선을 묶었다는 뜻이다. 자속은 특정 평면을 통과하는 자기력선을 모두 더한 값이고, 전속은 특정 평면을 통과하는 전기력선을 모두 더한 값이다. 자속은 아래 식에서 F가 면자하밀도가 될 것이고, 전속은 F 가 면전하밀도가 될 것이다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_14&quot; src=&quot;/images/2453b968933b50c0c0a3a1c53a42b6efc1ebc0c9c3cf81ee64fdded0cc8885a3.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_14&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_14&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/2453b968933b50c0c0a3a1c53a42b6efc1ebc0c9c3cf81ee64fdded0cc8885a3.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 30 Dec 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/docs/Electric-Circuit/3</link>
+        <guid isPermaLink="true">http://localhost:4000/docs/Electric-Circuit/3</guid>
+        
+        <category>Passive Element</category>
+        
+        <category>RLC</category>
+        
+        <category>IEC60063</category>
+        
+        <category>IEC60062</category>
+        
+        
+      </item>
+    <item>
+        <title>Electronics</title>
+        <description>&lt;p&gt;최근 전자 제품들은 점점 더 똑똑해지고, 작고 가벼워지며 혁신을 거듭하고 있다. 이런 전자제품들에는 전자공학에 기초를 두고 개발되고 있기 때문에 전자제품을 개발하는 공학자라면 전자공학을 기초부터 탄탄히 다져두어야 한다. 패시브 소자, 액티브 소자, 반도체 이론, 전자기학 등 두루두루 알아두면 어느 산업에서 근무하든 조금씩은 도움을 받을 기회가 있고 같은 경험을 했을 때 그 경험을 토대로 온전히 성장할 수 있는 사람이 될 수 있을 것이다.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 30 Dec 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/docs/Electronics</link>
+        <guid isPermaLink="true">http://localhost:4000/docs/Electronics</guid>
+        
+        <category>Intro</category>
+        
+        
+      </item>
+    <item>
+        <title>Filters</title>
+        <description>&lt;details close=&quot;&quot;&gt;
+  &lt;summary class=&quot;text-delta&quot;&gt;
+    Table of contents
+  &lt;/summary&gt;
+&lt;ol id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#전자기-간섭-emi-electromagnetic-interference&quot; id=&quot;markdown-toc-전자기-간섭-emi-electromagnetic-interference&quot;&gt;전자기 간섭 (EMI; electromagnetic interference)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#수동필터와-능동필터&quot; id=&quot;markdown-toc-수동필터와-능동필터&quot;&gt;수동필터와 능동필터&lt;/a&gt;    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#수동필터의-종류&quot; id=&quot;markdown-toc-수동필터의-종류&quot;&gt;수동필터의 종류&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#수동필터의-설계&quot; id=&quot;markdown-toc-수동필터의-설계&quot;&gt;수동필터의 설계&lt;/a&gt;        &lt;ol&gt;
+          &lt;li&gt;&lt;a href=&quot;#passive-lpf&quot; id=&quot;markdown-toc-passive-lpf&quot;&gt;Passive LPF&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#passive-hpf&quot; id=&quot;markdown-toc-passive-hpf&quot;&gt;Passive HPF&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#passive-band-pass-filter&quot; id=&quot;markdown-toc-passive-band-pass-filter&quot;&gt;Passive Band Pass Filter&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#passive-band-stop-filter&quot; id=&quot;markdown-toc-passive-band-stop-filter&quot;&gt;Passive Band Stop Filter&lt;/a&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#능동필터의-종류&quot; id=&quot;markdown-toc-능동필터의-종류&quot;&gt;능동필터의 종류&lt;/a&gt;        &lt;ol&gt;
+          &lt;li&gt;&lt;a href=&quot;#active-lpf&quot; id=&quot;markdown-toc-active-lpf&quot;&gt;Active LPF&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#active-hpf&quot; id=&quot;markdown-toc-active-hpf&quot;&gt;Active HPF&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#active-band-pass-filter&quot; id=&quot;markdown-toc-active-band-pass-filter&quot;&gt;Active Band Pass Filter&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#active-band-reject-notch-filter&quot; id=&quot;markdown-toc-active-band-reject-notch-filter&quot;&gt;Active Band Reject (Notch) Filter&lt;/a&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#trade-off&quot; id=&quot;markdown-toc-trade-off&quot;&gt;Trade Off&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/details&gt;
+
+&lt;h1 id=&quot;전자기-간섭-emi-electromagnetic-interference&quot;&gt;전자기 간섭 (EMI; electromagnetic interference)&lt;/h1&gt;
+
+&lt;p&gt;전자회로를 설계하다 보면, 주변 장치에서 발생하는 전자기장에 의해 특정 위치에 원하지 않는 신호가 전달되기도 한다. 이러한 신호 잡음을 효과적으로 제거하는 회로가 필터이다. 필터는 원하는 목적을 달성하기 위해서 낮은 주파수의 신호만 사용하거나 높은 주파수의 신호만 사용하는 방식 등 다양하게 응용된다.&lt;/p&gt;
+
+&lt;h1 id=&quot;수동필터와-능동필터&quot;&gt;수동필터와 능동필터&lt;/h1&gt;
+
+&lt;p&gt;수동 필터와 능동 필터는 필터에 사용되는 소자에 따른 분류이다. RLC를 사용한 필터는 수동 필터, 트랜지스터나 OP AMP 등을 사용한 필터는 능동 필터로 구분한다. 수동필터는 이득이 1을 초과할 수 없지만 고주파수 대역에서 유용하게 쓸 수 있다. 가청주파수 대역 (300~3000Hz) 에서는 수동필터의 성능이 매우 떨어지고, 대용량의 인덕턴스, 커패시턴스가 요구되므로 능동필터가 주로 쓰인다.&lt;/p&gt;
+
+&lt;h2 id=&quot;수동필터의-종류&quot;&gt;수동필터의 종류&lt;/h2&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_1&quot; src=&quot;/images/472e0c939a280ea5ae26877e0564d3283b651d605fe6ff9f5482630675faa2b2.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_1&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_1&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/472e0c939a280ea5ae26877e0564d3283b651d605fe6ff9f5482630675faa2b2.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;낮은 주파수 대역을 사용할 지, 높은 주파수 대역을 사용할 지 등에 따라 필터의 종류가 달라진다. LPF와 HPF 에서는 “차단주파수” ( 또는 “3-dB 주파수”, “반전력주파수” 등으로 불림)와 “저지주파수”라는 개념이 사용된다. “차단주파수”는 입력 대비 출력이 반으로 감소하는 주파수이고, “저지주파수”는 입력 대비 출력이 0에 근접하는 주파수를 의미한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;수동필터의-설계&quot;&gt;수동필터의 설계&lt;/h2&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_2&quot; src=&quot;/images/b2c1dbe19cf162bba3dc09adb959bf8441dc56ea85b62125901f62eb90dbfb5c.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_2&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_2&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/b2c1dbe19cf162bba3dc09adb959bf8441dc56ea85b62125901f62eb90dbfb5c.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;passive-lpf&quot;&gt;Passive LPF&lt;/h3&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_3&quot; src=&quot;/images/9cf5ae8293a2ca1b988d904b12b04abaf8892424c0d855fa3f850125e7c05f46.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_3&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_3&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/9cf5ae8293a2ca1b988d904b12b04abaf8892424c0d855fa3f850125e7c05f46.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;passive-hpf&quot;&gt;Passive HPF&lt;/h3&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_4&quot; src=&quot;/images/4b4369b8aa837f21de29c17b09aa2e7d730ecb4df5066fee95a12caca05f0747.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_4&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_4&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/4b4369b8aa837f21de29c17b09aa2e7d730ecb4df5066fee95a12caca05f0747.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;passive-band-pass-filter&quot;&gt;Passive Band Pass Filter&lt;/h3&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_5&quot; src=&quot;/images/c1eb714f5b4310cab278dae7a0d725c90f943b799336dabce00ab69cd829ecbd.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_5&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_5&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/c1eb714f5b4310cab278dae7a0d725c90f943b799336dabce00ab69cd829ecbd.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;passive-band-stop-filter&quot;&gt;Passive Band Stop Filter&lt;/h3&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_6&quot; src=&quot;/images/e8d31800fbc461fcfda2c4abcab317c70122327b85dda911789a2dbb22a205a3.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_6&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_6&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/e8d31800fbc461fcfda2c4abcab317c70122327b85dda911789a2dbb22a205a3.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- 중간광고 --&gt;
+&lt;p&gt;&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-5439110746367137&quot; data-ad-slot=&quot;1077048458&quot; data-ad-format=&quot;auto&quot; data-full-width-responsive=&quot;true&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;능동필터의-종류&quot;&gt;능동필터의 종류&lt;/h2&gt;
+&lt;h3 id=&quot;active-lpf&quot;&gt;Active LPF&lt;/h3&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_8&quot; src=&quot;/images/b0da1b38b76d5cf26da977f0ef733e7023d15bd0c590b0a974abf97c21bd87a5.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_8&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_8&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/b0da1b38b76d5cf26da977f0ef733e7023d15bd0c590b0a974abf97c21bd87a5.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;active-hpf&quot;&gt;Active HPF&lt;/h3&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_9&quot; src=&quot;/images/e67c4df0ccc69f1549b5c27f4afce4e3b5cf458916939fa5cb304974160f753c.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_9&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_9&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/e67c4df0ccc69f1549b5c27f4afce4e3b5cf458916939fa5cb304974160f753c.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;active-band-pass-filter&quot;&gt;Active Band Pass Filter&lt;/h3&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_10&quot; src=&quot;/images/5906e8b1a5e8743359ec7c8b0a3fa64ff9e8fd77b13d281d74de4bb95c7a36d1.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_10&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_10&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/5906e8b1a5e8743359ec7c8b0a3fa64ff9e8fd77b13d281d74de4bb95c7a36d1.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;active-band-reject-notch-filter&quot;&gt;Active Band Reject (Notch) Filter&lt;/h3&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_11&quot; src=&quot;/images/ebcbdc7c0132e261b70da309741e014a09570a8c36538675a2acc5547dbccf8b.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_11&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_11&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/ebcbdc7c0132e261b70da309741e014a09570a8c36538675a2acc5547dbccf8b.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;trade-off&quot;&gt;Trade Off&lt;/h1&gt;
+&lt;p&gt;필터는 노이즈를 제거하지만, 모든 일이 그렇듯 너무 과도하면 부작용이 있기 마련이다. 필터의 시정수가 커지면 노이즈 제거 성능은 높아지지만, 전압이나 전류나 전압이 원하는 레벨에 도달할 때까지의 시간이 늘어나게 된다. 따라서, 설계에 필터를 적용할 때에는 통과 대역폭 뿐만 아니라 응답시간도 고려할 필요가 있다.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 30 Dec 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/docs/Electric-Circuit/2</link>
+        <guid isPermaLink="true">http://localhost:4000/docs/Electric-Circuit/2</guid>
+        
+        <category>Filters</category>
+        
+        <category>LPF</category>
+        
+        <category>HPF</category>
+        
+        
+      </item>
+    <item>
+        <title>Impedance &amp; Phasor</title>
+        <description>&lt;details close=&quot;&quot;&gt;
+  &lt;summary class=&quot;text-delta&quot;&gt;
+    Table of contents
+  &lt;/summary&gt;
+&lt;ol id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#리액턴스와-복소수-좌표계&quot; id=&quot;markdown-toc-리액턴스와-복소수-좌표계&quot;&gt;리액턴스와 복소수 좌표계&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#페이저&quot; id=&quot;markdown-toc-페이저&quot;&gt;페이저&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#리액턴스&quot; id=&quot;markdown-toc-리액턴스&quot;&gt;리액턴스&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#저항-v-i-관계&quot; id=&quot;markdown-toc-저항-v-i-관계&quot;&gt;저항 V-I 관계&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#인덕터v-i-관계&quot; id=&quot;markdown-toc-인덕터v-i-관계&quot;&gt;인덕터V-I 관계&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#커패시터-v-i-관계&quot; id=&quot;markdown-toc-커패시터-v-i-관계&quot;&gt;커패시터 V-I 관계&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/details&gt;
+
+&lt;h1 id=&quot;리액턴스와-복소수-좌표계&quot;&gt;리액턴스와 복소수 좌표계&lt;/h1&gt;
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_1&quot; src=&quot;/images/230e0a188262afb0f667fda863a206ebda85b9acf9582d0de9a6aad4e4bc4075.png&quot; alt=&quot;&quot; style=&quot;width:50%&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_1&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_1&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/230e0a188262afb0f667fda863a206ebda85b9acf9582d0de9a6aad4e4bc4075.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;유도성 리액턴스는 wL, 용량성 리액턴스는 $1 \over wC$ 로 표현된다. w는 각주파수를 의미하는데, w는 2πf 이므로 리액턴스는 주파수에 따라 변동한다는 것을 알 수 있다. 복소수 좌표계는 임피던스를 나타내기 위한 좌표계로 사용되는데, 임피던스가 Z = $ R + jX $ 로 표현된다는 점을 생각해보면 이해가 된다. 여기서 X 는 총 리액턴스로 유도성 리액턴스와 용량성 리액턴스를 합한 값이다. 위 그림에서 확인할 수 있듯, 용량성 리액턴스는 90도 뒤지고 용량성 리액턴스는 90도 앞선다는 것을 알 수 있다.&lt;/p&gt;
+
+&lt;h1 id=&quot;페이저&quot;&gt;페이저&lt;/h1&gt;
+
+&lt;p&gt;교류전원의 전압 역시 페이저로 표현되기도 한다. 페이저로 표현된 전압식을 임피던스로 나누어주면 전류를 쉽게 구할 수 있다. 위상각은 φ 로 표현되고, 0~2π로 표현하거나 -π ~ π로 표현하기도 한다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_2&quot; src=&quot;/images/cdd2dd113f330f38d9f57e373781505081e274382df07f37412a3c8d42e8f984.png&quot; alt=&quot;&quot; style=&quot;width:50%&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_2&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_2&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/cdd2dd113f330f38d9f57e373781505081e274382df07f37412a3c8d42e8f984.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;리액턴스&quot;&gt;리액턴스&lt;/h1&gt;
+
+&lt;p&gt;리액턴스란 용어의 사전적 뜻은 반응을 보이는 정도를 의미한다. 전기에 있어서도 리액턴스의 의미는 변하지 않는다. 유도성 리액턱스는 인덕터에 의한 것이고, 용량성 리액턴스는 커패시터에 의한 것이다. 인덕터는 전기에너지를 자기장의 형태로 저장하는 장치이고, 커패시터는 전기에너지를 전기장의 형태로 저장한다. 에너지를 변환하는 과정에서 위상의 변화가 발생하고 이러한 특성을 이용해서 여러가지 응용회로가 개발되었다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_3&quot; src=&quot;/images/508ae062d2345ea26998e8db7d022d0d18de1853416b6d31ad33157ef4bc46c6.png&quot; alt=&quot;&quot; style=&quot;width:50%&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_3&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_3&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/508ae062d2345ea26998e8db7d022d0d18de1853416b6d31ad33157ef4bc46c6.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- 중간광고 --&gt;
+&lt;p&gt;&lt;ins class=&quot;adsbygoogle&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-5439110746367137&quot; data-ad-slot=&quot;1077048458&quot; data-ad-format=&quot;auto&quot; data-full-width-responsive=&quot;true&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;저항-v-i-관계&quot;&gt;저항 V-I 관계&lt;/h1&gt;
+
+&lt;p&gt;저항은 아래와 같이 전압과 전류가 동일한 위상을 가진다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_4&quot; src=&quot;/images/9cc6abb899377b8a24143e5cea6d2650b2c491ca05a8b5ad2a813cae0424e2d9.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_4&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_4&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/9cc6abb899377b8a24143e5cea6d2650b2c491ca05a8b5ad2a813cae0424e2d9.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;인덕터v-i-관계&quot;&gt;인덕터V-I 관계&lt;/h1&gt;
+
+&lt;p&gt;인덕터는 전류가 전압보다 위상이 $pi \over  2$ 만큼 뒤진다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_5&quot; src=&quot;/images/44ab9c05785e5d81ddb394a10f6081fd74631ddbc979ee0fac706e9f5413dea9.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_5&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_5&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/44ab9c05785e5d81ddb394a10f6081fd74631ddbc979ee0fac706e9f5413dea9.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;커패시터-v-i-관계&quot;&gt;커패시터 V-I 관계&lt;/h1&gt;
+
+&lt;p&gt;커패시터는 전압이 전류보다 위상이 $pi \over  2$ 만큼 뒤진다.&lt;/p&gt;
+
+&lt;figure&gt;
+  
+  &lt;img name=&quot;img_6&quot; src=&quot;/images/0f07e37d79b7e39f41bf353a942f2fbb7089d1ff64ca32691698b08e49a38ae1.png&quot; alt=&quot;&quot; style=&quot;width:auto&quot; /&gt;
+  
+  
+&lt;/figure&gt;
+
+&lt;div name=&quot;mdiv_6&quot; class=&quot;modal&quot;&gt;
+  &lt;span name=&quot;mdiv_span_6&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/span&gt;
+  &lt;img src=&quot;/images/0f07e37d79b7e39f41bf353a942f2fbb7089d1ff64ca32691698b08e49a38ae1.png&quot; class=&quot;modal-content&quot; /&gt;
+  &lt;div&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 30 Dec 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/docs/Electric-Circuit/1</link>
+        <guid isPermaLink="true">http://localhost:4000/docs/Electric-Circuit/1</guid>
+        
+        <category>Impedance</category>
+        
+        <category>Phasor</category>
+        
+        
+      </item>
+    <item>
+        <title>전기기사 회로이론</title>
+        <description>&lt;p&gt;회로이론은 이전에 전자전기 &lt;a href=&quot;/docs/Electric-Circuit&quot;&gt;관련 포스트&lt;/a&gt;에서도 말했듯 전자전기 공학을 이해하기 위한 최소한의 지식을 제공한다.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Dec 2022 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/docs/Electric-Circuit/EE-Circuits</link>
+        <guid isPermaLink="true">http://localhost:4000/docs/Electric-Circuit/EE-Circuits</guid>
+        
+        <category>회로이론</category>
+        
+        <category>제어공학</category>
+        
+        
+      </item>
     
   </channel>
 </rss>

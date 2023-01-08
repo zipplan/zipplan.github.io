@@ -360,7 +360,7 @@ textarea { overflow: auto; }
 
 /* Interactive ========================================================================== */
 /* Add the correct display in Edge, IE 10+, and Firefox. */
-details { display: block; }
+details { display: block; background-color: #E9FEEE; }
 
 /* Add the correct display in all browsers. */
 summary { display: list-item; }
@@ -634,7 +634,7 @@ h3, .text-gamma { font-size: 16px !important; }
 
 @media (min-width: 31.25rem) { h3, .text-gamma { font-size: 18px !important; } }
 
-h4, .text-delta { font-size: 11px !important; font-weight: 400; text-transform: uppercase; letter-spacing: 0.1em; }
+h4, .text-delta { font-size: 11px !important; font-weight: 400; text-transform: uppercase; letter-spacing: 0.1em; background-color: #E9FEEE; }
 
 @media (min-width: 31.25rem) { h4, .text-delta { font-size: 12px !important; } }
 

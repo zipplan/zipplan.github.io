@@ -1,3 +1,5 @@
 User-agent: Yeti
 Allow:/
 Sitemap: https://joonyoungjj.github.io/sitemap.xml
+
+#DaumWebMasterTool:4d878fe2bca6cb4d4743d035305224f2110eacfeeadb60dc1a66fc8bf0e29113:AQzgD3BwDEjSC0hxCnaJQg==
