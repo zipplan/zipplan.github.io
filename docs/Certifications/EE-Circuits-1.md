@@ -13,6 +13,7 @@ permalink: docs/Electric-Circuit/EE-Circuits/1
 use_math: true
 grand_parent: 자격증
 parent: 전기기사 회로이론
+date : 22/12/30
 ---
 
 {% include modimg src="/images/88360bb1160f261adb07d56c400e4442b770985e1254d653e9525b4f8008d9cc.png" id="1" width="auto" %}  

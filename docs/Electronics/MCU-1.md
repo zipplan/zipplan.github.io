@@ -11,6 +11,7 @@ permalink: docs/MCU/1
 use_math: true
 grand_parent: Electronics
 parent: MCU
+date : 22/12/30
 ---
 
 {% include toc %}

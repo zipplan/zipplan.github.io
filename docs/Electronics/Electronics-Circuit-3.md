@@ -15,6 +15,7 @@ permalink: docs/Electric-Circuit/3
 use_math: true
 grand_parent: Electronics
 parent: Electric Circuit
+date : 22/12/30
 ---
 
 {% include toc %}

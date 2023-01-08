@@ -11,6 +11,7 @@ tags:
   - Intro
 permalink: docs/Certification
 use_math: true
+date : 22/12/30
 ---
 
 # [전기기사]((https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=1150)) ('23. 01 ~ 현재)  

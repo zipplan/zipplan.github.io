@@ -5,7 +5,7 @@ nav_order: 1
 description: "Introduction About ZipPlan"
 permalink: /
 author : ZipPlan
-date : 22.12.30
+date : 22/12/30
 priority: 1.0
 ---
 
