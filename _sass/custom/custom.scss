@@ -3,6 +3,18 @@ $pink-100: #f967f1;
 $pink-200: #e94ee1;
 $pink-300: #dd2cd4;
 
+webhighlights-link-preview {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+webhighlights-link-preview:hover {
+  background: rgb(245, 248, 250);
+  border-color: #8899a680;
+}
+
 .MathJax {
   font-size: 1.3em;
 }

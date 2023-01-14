@@ -90,7 +90,7 @@ layout: null
       {% elsif post.date %}
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
       {% else %}
-        <lastmod>{{ 22/12/20 | date_to_xmlschema }}</lastmod>
+        <lastmod>{{ '22/12/20' | date_to_xmlschema }}</lastmod>
       {% endif %}
 
       {% if post.sitemap.changefreq %}

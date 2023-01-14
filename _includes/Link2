@@ -1,0 +1,3 @@
+<webhighlights-link-preview
+    url="{{ include.url }}">
+  </webhighlights-link-preview>
