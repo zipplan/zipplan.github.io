@@ -11,10 +11,10 @@
 
 
 {% if include.id %}
-<div name="mdiv_{{include.id}}" class="modal">
-  <span name="mdiv_span_{{include.id}}" class="close">&times;</span>
-  <img src="{{include.src}}" class="modal-content" img_size="base">
-  <div>{{include.alt}}</div>
+<div z-index="9999" name="mdiv_{{include.id}}" class="modal">
+  <span z-index="9999" name="mdiv_span_{{include.id}}" class="close">&times;</span>
+  <img z-index="9999" src="{{include.src}}" class="modal-content" img_size="base">
+  <div z-index="9999">{{include.alt}}</div>
 </div>
 {% else %}
   echo "error"
