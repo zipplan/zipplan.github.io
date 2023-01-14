@@ -7,17 +7,32 @@ $( document ).ready(function() {
 		$( "div[name='"+ thisname + "']" ).css("display", "block");
 	  });
 	$( "div.modal > img" ).on("click", function() {
-		if (this.style.img_size == "magnified")
+		if (this.style.width == "40%" || this.style.img_init == "0")
 		{
+			this.style.img_init = "1";
 			this.style.width = "60%";
-			this.style.img_size = "base";
+			this.style.cursor = "zoom-in";
+		}
+		else if (this.style.width == "60%")
+		{
+			this.style.width = "80%";
+			this.style.cursor = "zoom-in";
+		}
+		else if (this.style.width == "80%")
+		{
+			this.style.width = "100%";
+			this.style.img_init == "0";
+			this.style.cursor = "zoom-out";
+		}
+		else if (this.style.width == "100%")
+		{
+			this.style.width = "40%";
 			this.style.cursor = "zoom-in";
 		}
 		else
 		{
-			this.style.width = "100%";
-			this.style.img_size = "magnified";
-			this.style.cursor = "zoom-out";
+			this.style.width = "60%";
+			this.style.cursor = "zoom-in";
 		}
 	  });
 	$( "div.modal > span" ).on( "click", function() {
