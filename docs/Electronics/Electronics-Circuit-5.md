@@ -10,7 +10,6 @@ tags:
   - Passive Element
   - Resistor Structure
 permalink: docs/Electric-Circuit/5
-use_math: true
 grand_parent: Electronics
 parent: Electric Circuit
 date : 22/12/30

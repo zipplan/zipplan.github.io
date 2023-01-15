@@ -11,7 +11,6 @@ tags:
   - LPF
   - HPF
 permalink: docs/Electric-Circuit/2
-use_math: true
 grand_parent: Electronics
 parent: Electric Circuit
 date : 22/12/30

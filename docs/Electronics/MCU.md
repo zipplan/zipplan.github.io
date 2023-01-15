@@ -10,7 +10,6 @@ category:
 tags: 
   - Intro
 permalink: docs/MCU
-use_math: true
 parent: Electronics
 date : 22/12/30
 ---

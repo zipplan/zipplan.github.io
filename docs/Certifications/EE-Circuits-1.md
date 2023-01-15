@@ -10,7 +10,6 @@ tags:
   - 회로이론
   - 제어공학
 permalink: docs/Electric-Circuit/EE-Circuits/1
-use_math: true
 grand_parent: 자격증
 parent: 전기기사 회로이론
 date : 22/12/30

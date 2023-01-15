@@ -11,7 +11,6 @@ tags:
   - 제어공학
 has_children: true
 permalink: docs/Electric-Circuit/EE-Circuits
-use_math: true
 parent: 자격증
 date : 22/12/30
 ---
