@@ -6,35 +6,57 @@ $( document ).ready(function() {
 		thisname = 'mdiv_'.concat(thisname);
 		$( "div[name='"+ thisname + "']" ).css("display", "block");
 	  });
-	$( "div.modal > img" ).on("click", function() {
-		if (this.style.width == "40%" || this.style.img_init == "0")
+	$( "div.modal > img" ).on("mousewheel",function(event){
+		var width_percent = parseInt(this.style.width.replace("%", "").trim());
+		if (isNaN(width_percent))
 		{
-			this.style.img_init = "1";
-			this.style.width = "60%";
-			this.style.cursor = "zoom-in";
+			width_percent = 40;
 		}
-		else if (this.style.width == "60%")
+        if(event.originalEvent.deltaY < 0){
+			width_percent += 10;
+        }else if(event.originalEvent.deltaY > 0){
+			width_percent -= 10;
+        }
+		if (width_percent <= 40)
 		{
-			this.style.width = "80%";
-			this.style.cursor = "zoom-in";
+			width_percent = 40;
 		}
-		else if (this.style.width == "80%")
+		else if (width_percent >= 100)
 		{
-			this.style.width = "100%";
-			this.style.img_init == "0";
-			this.style.cursor = "zoom-out";
+			width_percent = 100;
 		}
-		else if (this.style.width == "100%")
+		this.style.width = `${width_percent}%`;
+    });
+	$( "div.modal > img" ).mousedown(function(event){
+		var width_percent = parseInt(this.style.width.replace("%", "").trim());
+		if (isNaN(width_percent))
 		{
-			this.style.width = "40%";
-			this.style.cursor = "zoom-in";
+			width_percent = 40;
 		}
-		else
+		switch (event.which) {
+			case 1:
+				width_percent += 10;
+				break;
+			case 2:
+				width_percent = 40;
+				break;
+			case 3:
+				event.preventDefault();
+				width_percent -= 10;
+				break;
+			default:
+				break;
+		}
+		if (width_percent <= 40)
 		{
-			this.style.width = "60%";
-			this.style.cursor = "zoom-in";
+			width_percent = 40;
 		}
-	  });
+		else if (width_percent >= 100)
+		{
+			width_percent = 100;
+		}
+		this.style.width = `${width_percent}%`;
+	});
 	$( "div.modal > span" ).on( "click", function() {
 		this.parentNode.style.display = "none";
 		$( "div.modal > img" ).css("img_size", "base");

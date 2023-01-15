@@ -1808,6 +1808,10 @@ blockquote.warning-title > p:nth-child(2) { margin-top: 0; }
 
 blockquote.warning-title > p:last-child { margin-bottom: 0; }
 
+webhighlights-link-preview { display: flex; width: 100%; margin-top: 25px; margin-bottom: 25px; }
+
+webhighlights-link-preview:hover { background: #f5f8fa; border-color: #8899a680; }
+
 .MathJax { font-size: 1.3em; }
 
 .MathJax_Display { height: auto; font-size: 1.3em; text-align: left !important; display: inline !important; }
@@ -1818,14 +1822,14 @@ figure { text-align: center; font-size: 10px; -webkit-user-select: none; -moz-us
 
 .imgbtn:hover { cursor: grab; }
 
-Img:hover { opacity: 0.7; cursor: -webkit-zoom-in; cursor: -moz-zoom-in; cursor: zoom-in; }
+Img:hover { cursor: -webkit-zoom-in; cursor: -moz-zoom-in; cursor: zoom-in; }
 
 .responsive-video-container { position: relative; margin-bottom: 1em; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
 
 .responsive-video-container iframe, .responsive-video-container object, .responsive-video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 /* The Modal (background) */
-.modal { display: none; /* Hidden by default */ position: fixed; /* Stay in place */ z-index: 1; /* Sit on top */ padding-top: 100px; /* Location of the box */ left: 0; top: 0; width: 100%; /* Full width */ height: 100%; /* Full height */ overflow: auto; /* Enable scroll if needed */ background-color: black; /* Fallback color */ background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */ }
+.modal { display: none; /* Hidden by default */ position: fixed; /* Stay in place */ z-index: 999999; /* Sit on top */ padding-top: 100px; /* Location of the box */ left: 0; top: 0; width: 100%; /* Full width */ height: 100%; /* Full height */ overflow: auto; /* Enable scroll if needed */ background-color: black; /* Fallback color */ background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */ }
 
 .modal:hover { cursor: default; }
 
