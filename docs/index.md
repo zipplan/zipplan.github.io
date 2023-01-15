@@ -19,7 +19,8 @@ Hello! My name is Lucy and I am making progress everyday to become professional 
 > - Fast and proactive learner & Strong team player  
 
 # 🔥 PROFESSIONAL EXPERIENCE
-    TOTAL Experience: 5 years
+TOTAL Experience: 5 years  
+
 ## Sales Support Specialist, Planning Team 
   - Sample management (import, export, inventory, audit, etc.)  
   - Assortment management (discontinue, limited edition, etc.)  
