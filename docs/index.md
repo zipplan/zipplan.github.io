@@ -21,14 +21,12 @@ Hello! My name is Lucy and I am making progress everyday to become professional 
 # 🔥 PROFESSIONAL EXPERIENCE
     TOTAL Experience: 5 years
 ## Sales Support Specialist, Planning Team 
-*(2022.07 - Present)*
   - Sample management (import, export, inventory, audit, etc.)  
   - Assortment management (discontinue, limited edition, etc.)  
   - Lead HQ project for local implementation  
   - Support logistic and compliance issues  
   - Support local sales events and promotions  
 ## Planning & Operation Specialist, Planning Team 
-*(2019.07 - 2022.07)*  
   - Overall sales support for overseas sales (Philippines market)  
   - Manage sales orders in ERP SAP system  
   - Distributor/Key account management and daily communication  
@@ -37,7 +35,6 @@ Hello! My name is Lucy and I am making progress everyday to become professional 
   - Manage and maintain files covering invoices, and other supporting documents  
   - Gather and organize data to assist management in making key decisions  
 ## Merchandising & Purchasing Specialist, Purchasing Team 
-*(2014.09 - 2016.03)*  
   - Merchandising and purchasing for in-flight sales  
   - Worked with team to find and launch new products  
   - Manage vendors and purchasing conditions  
@@ -61,7 +58,8 @@ Hello! My name is Lucy and I am making progress everyday to become professional 
 
 ## CERTIFICATION
 ### **Commerce & Trade English Grade 1**
-[Korea Chamber of Commerce and Industry](http://english.korcham.net/nChamEng/Service/Main/appl/Main.asp) *(2018.12)*
+[Korea Chamber of Commerce and Industry](http://english.korcham.net/nChamEng/Service/Main/appl/Main.asp) 
 
-### **INTERNATIONAL TRADE SPECIALIST GRADE 2**
-[KITA](https://www.kita.net/) (*2014.04)*
+### **International Trade Specialist Grade 2**
+[KITA](https://www.kita.net/) 
+
