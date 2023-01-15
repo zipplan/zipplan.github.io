@@ -5,8 +5,9 @@ $( document ).ready(function() {
 		thisname = thisname.replace('img_', '');
 		thisname = 'mdiv_'.concat(thisname);
 		$( "div[name='"+ thisname + "']" ).css("display", "block");
+		$( "body" ).css("overflow-y", "hidden");
 	  });
-	$( "div.modal > img" ).on("mousewheel",function(event){
+	  $( "div.modal > img" ).on("mousewheel",function(event){
 		var width_percent = parseInt(this.style.width.replace("%", "").trim());
 		if (isNaN(width_percent))
 		{
@@ -59,17 +60,26 @@ $( document ).ready(function() {
 	});
 	$( "div.modal > span" ).on( "click", function() {
 		this.parentNode.style.display = "none";
-		$( "div.modal > img" ).css("img_size", "base");
-		$( "div.modal > img" ).css("width", "60%");
+		$( "div.modal > img" ).css("width", "40%");
+		$( "div.modal > img" ).css("img_init", "0");
+		$( "div.modal > img" ).css("cursor", "zoom-in");
+		$( "body" ).css("overflow-y", "auto");
 	  });
 	
+	// Link Preview
 	document.querySelectorAll('webhighlights-link-preview').
 		forEach(element => element.addEventListener('click', () => window.open(element.getAttribute('url'), "_blank")));
 	
+	
+
 });
 
 $(document).keydown(function(e) {
 	if (e.key === "Escape") { // escape key maps to keycode `27`
 		$( "div[name^='mdiv_']" ).css("display", "none");
+		$( "div.modal > img" ).css("width", "40%");
+		$( "div.modal > img" ).css("img_init", "0");
+		$( "div.modal > img" ).css("cursor", "zoom-in");
+		$( "body" ).css("overflow-y", "auto");
    }
 });

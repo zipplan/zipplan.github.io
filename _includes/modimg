@@ -9,13 +9,8 @@
   {% endif %}
 </figure>
 
-
-{% if include.id %}
 <div name="mdiv_{{include.id}}" class="modal">
   <span name="mdiv_span_{{include.id}}" class="close">&times;</span>
   <img src="{{include.src}}" class="modal-content" img_init="0" oncontextmenu="return false">
   <div>{{include.alt}}</div>
 </div>
-{% else %}
-  echo "error"
-{% endif %}
